@@ -6,3 +6,13 @@ a project to get internet packages from provider and sell them to users with dis
 ### first step
 get packages from the provider and store them in database
 
+<p>
+what we need of internet package to store: 
+
+title, 
+description, 
+price, 
+provider_identifier,
+duration,
+traffic
+</p>

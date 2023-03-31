@@ -1,9 +1,12 @@
 <?php
 
-namespace App\Services\InternetPackage;
+namespace App\Services\InternetPackage\Functionality;
 
 use App\Models\InternetPackage;
+use App\Models\User;
 use App\Services\Http\InternetPackage\Interfaces\KareneInternetPackageServiceInterface;
+use App\Services\InternetPackage\Interfaces\InternetPackageServiceInterface;
+use App\Services\InternetPackage\Types\InternetPackageBuyResponse;
 
 class InternetPackageService implements InternetPackageServiceInterface
 {

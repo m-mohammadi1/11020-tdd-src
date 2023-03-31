@@ -1,6 +1,7 @@
 <?php
 
-namespace App\Services\InternetPackage;
+namespace App\Services\InternetPackage\Interfaces;
+
 
 interface InternetPackageServiceInterface
 {

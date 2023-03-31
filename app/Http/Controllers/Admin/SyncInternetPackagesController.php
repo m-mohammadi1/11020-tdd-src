@@ -3,9 +3,8 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Services\InternetPackage\InternetPackageServiceInterface;
+use App\Services\InternetPackage\Interfaces\InternetPackageServiceInterface;
 use App\Services\InternetPackage\InternetPackageServiceProviderInterface;
-use Illuminate\Http\Request;
 
 class SyncInternetPackagesController extends Controller
 {

@@ -6,6 +6,7 @@ use App\Enums\OrderStatus;
 use App\Models\InternetPackage;
 use App\Models\User;
 use App\Services\Http\InternetPackage\Interfaces\KareneInternetPackageServiceInterface;
+use App\Services\InternetPackage\Exceptions\UserWalletAmountNotEnoughException;
 use App\Services\InternetPackage\Interfaces\BuyInternetPackageServiceInterface;
 use App\Services\InternetPackage\Interfaces\InternetPackageServiceInterface;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -40,10 +41,12 @@ class InternetPackageTest extends TestCase
 
     public function test_can_buy_packages_from_provider()
     {
-        $user = User::factory()
-            ->createOne();
-
         $packagge = InternetPackage::query()->first();
+
+        $user = User::factory()
+            ->createOne([
+                'wallet_amount' => $packagge->price + 1
+            ]);
 
         $result = resolve(BuyInternetPackageServiceInterface::class)
             ->buyPackageForUser($user, $packagge);
@@ -54,5 +57,20 @@ class InternetPackageTest extends TestCase
             'api_order_id' => $result->api_order_id,
             'status' => OrderStatus::SUCCESS
         ]);
+    }
+
+    public function test_user_cannot_buy_package_if_its_wallet_amount_is_not_enough()
+    {
+        $packagge = InternetPackage::query()->first();
+
+        $user = User::factory()
+            ->createOne([
+                'wallet_amount' => $packagge->price - 1
+            ]);
+
+        $this->expectException(UserWalletAmountNotEnoughException::class);
+
+        resolve(BuyInternetPackageServiceInterface::class)
+            ->buyPackageForUser($user, $packagge);
     }
 }

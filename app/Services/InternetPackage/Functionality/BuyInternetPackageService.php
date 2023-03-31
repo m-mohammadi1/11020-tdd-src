@@ -7,6 +7,7 @@ use App\Models\InternetPackage;
 use App\Models\Order;
 use App\Models\User;
 use App\Services\Http\InternetPackage\Interfaces\KaraneInternetPackageBuyServiceInterface;
+use App\Services\InternetPackage\Exceptions\UserWalletAmountNotEnoughException;
 use App\Services\InternetPackage\Interfaces\BuyInternetPackageServiceInterface;
 use App\Services\InternetPackage\Types\InternetPackageBuyResponse;
 
@@ -21,6 +22,10 @@ class BuyInternetPackageService implements BuyInternetPackageServiceInterface
 
     public function buyPackageForUser(User $user, InternetPackage $package): Order
     {
+        if ($user->wallet_amount < $package->price) {
+            UserWalletAmountNotEnoughException::throw();
+        }
+
         $response = $this->internetPackageBuyService->buyPackage(
             $user->getPhoneNumber(),
             $package->code

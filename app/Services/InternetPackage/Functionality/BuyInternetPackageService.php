@@ -10,6 +10,7 @@ use App\Services\Http\InternetPackage\Interfaces\KaraneInternetPackageBuyService
 use App\Services\InternetPackage\Exceptions\UserWalletAmountNotEnoughException;
 use App\Services\InternetPackage\Interfaces\BuyInternetPackageServiceInterface;
 use App\Services\InternetPackage\Types\InternetPackageBuyResponse;
+use Illuminate\Support\Facades\DB;
 
 class BuyInternetPackageService implements BuyInternetPackageServiceInterface
 {
@@ -31,13 +32,40 @@ class BuyInternetPackageService implements BuyInternetPackageServiceInterface
             $package->code
         );
 
-        return Order::query()
+        $order = Order::query()
             ->create([
                 'user_id' => $user->id,
                 'package_id' => $package->id,
                 'api_order_id' => $response->orderId,
                 'status' => $response->wasSuccessful ? OrderStatus::SUCCESS : OrderStatus::FAILURE,
             ]);
+
+
+        $this->updateUserWalletAmount($user, $package);
+
+
+        return $order;
+    }
+
+
+    private function updateUserWalletAmount(User $user, InternetPackage $package): void
+    {
+        try {
+            DB::beginTransaction();
+
+            $user = User::query()
+                ->lockForUpdate()
+                ->find($user->id);
+
+            $user->wallet_amount -= $package->price;
+            $user->save();
+
+            DB::commit();
+        } catch (\Exception $exception) {
+            DB::rollBack();
+
+            throw $exception;
+        }
     }
 
 }

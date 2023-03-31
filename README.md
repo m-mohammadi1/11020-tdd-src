@@ -37,9 +37,11 @@ if wallet amount is less than package price it will throw error
 otherwise it will buy the package
 </p>
 
+done+
 
 ### step 4
 update user wallet amount after payment successes
 <p>
 consider so many requests per user (we give them api)
 </p>
+done+

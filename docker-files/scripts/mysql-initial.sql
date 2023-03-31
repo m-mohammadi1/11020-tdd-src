@@ -1,0 +1,1 @@
+CREATE TABLE 11020_tdd_test;

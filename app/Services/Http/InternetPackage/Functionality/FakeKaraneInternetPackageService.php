@@ -8,6 +8,7 @@ use App\Services\Http\InternetPackage\Interfaces\KareneInternetPackageServiceInt
 use App\Services\Http\InternetPackage\Types\DurationType;
 use App\Services\Http\InternetPackage\Types\InternetPackage;
 use App\Services\Http\InternetPackage\Types\InternetPackageCollection;
+use App\Services\Http\InternetPackage\Types\TrafficType;
 
 class FakeKaraneInternetPackageService implements KareneInternetPackageServiceInterface
 {
@@ -31,6 +32,12 @@ class FakeKaraneInternetPackageService implements KareneInternetPackageServiceIn
                 }
                 $durationType = new DurationType($durationType);
 
+                $trafficType = $package['traffic']['category']['sub_type'];
+                if (!TrafficType::acceptsDurationType($trafficType)) {
+                    continue;
+                }
+                $trafficType = new TrafficType($trafficType);
+
                 $item = new InternetPackage(
                     $package['type'],
                     $package['description'],
@@ -38,6 +45,7 @@ class FakeKaraneInternetPackageService implements KareneInternetPackageServiceIn
                     $package['duration']['category']['value'],
                     $durationType,
                     $package['traffic']['category']['value'],
+                    $trafficType
                 );
 
                 $items[] = $item;

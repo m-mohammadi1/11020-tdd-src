@@ -11,6 +11,7 @@ class InternetPackage
         public readonly int $duration,
         public readonly DurationType $durationType,
         public readonly int $traffic,
+        public readonly TrafficType $trafficType,
     )
     {
 

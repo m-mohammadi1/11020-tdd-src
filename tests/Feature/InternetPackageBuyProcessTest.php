@@ -14,7 +14,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Mockery\MockInterface;
 use Tests\TestCase;
 
-class InternetPackageTest extends TestCase
+class InternetPackageBuyProcessTest extends TestCase
 {
     use RefreshDatabase;
 
@@ -24,21 +24,6 @@ class InternetPackageTest extends TestCase
 
         resolve(InternetPackageServiceInterface::class)
             ->syncInternetPackagesInSystem();
-    }
-
-
-    public function test_can_sync_services_with_provider()
-    {
-        $count = InternetPackage::query()->count();
-
-        $this->assertTrue($count > 0);
-
-        $itemsStoreInDatabase = resolve(KareneInternetPackageServiceInterface::class)->getPackages();
-
-        $this->assertDatabaseCount(InternetPackage::class, $itemsStoreInDatabase->count());
-        $this->assertDatabaseHas(InternetPackage::class, [
-            'code' => $itemsStoreInDatabase->first()->apiIdentifier
-        ]);
     }
 
     public function test_can_buy_packages_from_provider()

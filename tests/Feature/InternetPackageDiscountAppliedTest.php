@@ -10,7 +10,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
-class InternetPackageDiscountApplyedTest extends TestCase
+class InternetPackageDiscountAppliedTest extends TestCase
 {
     use RefreshDatabase;
 
@@ -39,7 +39,7 @@ class InternetPackageDiscountApplyedTest extends TestCase
             ->buyPackageForUser($user, $packagge);
 
         $discountedAmount = $packagge->price * ($discountPercentage / 100);
- 
+
         $user = $user->fresh();
         $this->assertEquals(12_000 + $discountedAmount, $user->wallet_amount);
     }

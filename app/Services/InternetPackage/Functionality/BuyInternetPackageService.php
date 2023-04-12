@@ -6,17 +6,18 @@ use App\Enums\OrderStatus;
 use App\Models\InternetPackage;
 use App\Models\Order;
 use App\Models\User;
+use App\Services\Discount\DiscountServiceInterface;
 use App\Services\Http\InternetPackage\Interfaces\KaraneInternetPackageBuyServiceInterface;
 use App\Services\InternetPackage\Exceptions\UserWalletAmountNotEnoughException;
 use App\Services\InternetPackage\Interfaces\BuyInternetPackageServiceInterface;
-use App\Services\InternetPackage\Types\InternetPackageBuyResponse;
 use Illuminate\Support\Facades\DB;
 
 class BuyInternetPackageService implements BuyInternetPackageServiceInterface
 {
 
     public function __construct(
-        private KaraneInternetPackageBuyServiceInterface $internetPackageBuyService
+        private KaraneInternetPackageBuyServiceInterface $internetPackageBuyService,
+        private DiscountServiceInterface $discountService,
     )
     {
     }
@@ -57,7 +58,9 @@ class BuyInternetPackageService implements BuyInternetPackageServiceInterface
                 ->lockForUpdate()
                 ->find($user->id);
 
-            $user->wallet_amount -= $package->price;
+            $user->wallet_amount -= $package->getFinalPriceWithDiscount(
+                $this->discountService->getInternetPackageDiscount()
+            );
             $user->save();
 
             DB::commit();

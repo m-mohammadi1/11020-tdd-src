@@ -5,11 +5,13 @@ namespace Tests\Feature;
 use App\Enums\OrderStatus;
 use App\Models\InternetPackage;
 use App\Models\User;
+use App\Services\Discount\DiscountServiceInterface;
 use App\Services\Http\InternetPackage\Interfaces\KareneInternetPackageServiceInterface;
 use App\Services\InternetPackage\Exceptions\UserWalletAmountNotEnoughException;
 use App\Services\InternetPackage\Interfaces\BuyInternetPackageServiceInterface;
 use App\Services\InternetPackage\Interfaces\InternetPackageServiceInterface;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Mockery\MockInterface;
 use Tests\TestCase;
 
 class InternetPackageTest extends TestCase
@@ -76,6 +78,13 @@ class InternetPackageTest extends TestCase
 
     public function test_user_wallet_amount_is_edited_correctly_after_successful_order()
     {
+        $this->mock(DiscountServiceInterface::class, function (MockInterface $mock) {
+            $mock
+                ->shouldReceive('getInternetPackageDiscount')
+                ->once()
+                ->andReturn(0);
+        });
+
         $packagge = InternetPackage::query()->first();
 
         $userWalletAmount = 12_000 + $packagge->price;

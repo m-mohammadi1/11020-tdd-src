@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Services\Discount\DiscountService;
+use App\Services\Discount\DiscountServiceInterface;
 use App\Services\Http\InternetPackage\Functionality\FakeKaraneBuyService;
 use App\Services\Http\InternetPackage\Functionality\FakeKaraneInternetPackageService;
 use App\Services\Http\InternetPackage\Interfaces\KaraneInternetPackageBuyServiceInterface;
@@ -25,6 +27,7 @@ class AppServiceProvider extends ServiceProvider
         $this->app->bind(BuyInternetPackageServiceInterface::class, BuyInternetPackageService::class);
         $this->app->bind(InternetPackageServiceInterface::class, InternetPackageService::class);
         $this->app->bind(KareneInternetPackageServiceInterface::class, FakeKaraneInternetPackageService::class);
+        $this->app->bind(DiscountServiceInterface::class, DiscountService::class);
     }
 
     /**

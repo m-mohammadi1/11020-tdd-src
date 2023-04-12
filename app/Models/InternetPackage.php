@@ -19,4 +19,9 @@ class InternetPackage extends Model
 
     protected $guarded = ['id'];
 
+
+    public function getFinalPriceWithDiscount(int $discountPercentage): float
+    {
+        return $this->price - ($this->price * ($discountPercentage / 100));
+    }
 }

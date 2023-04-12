@@ -22,7 +22,12 @@ class FakeKaraneInternetPackageService implements KareneInternetPackageServiceIn
 
             $items = [];
             foreach ($packages as $package) {
-                if (!isset($package['traffic'])) {
+                // filter anarestan packages
+                if ($package['type'] === "0") {
+                    continue;
+                }
+
+                if (!isset($package['traffic']) || !isset($package['duration'])) {
                     continue;
                 }
 

@@ -41,6 +41,8 @@ class InternetPackageSyncTest extends TestCase
 
     public function test_synced_packages_duration_type_is_correct()
     {
+        $this->withoutExceptionHandling();
+
         // get a fake stub package
         // check duration type on InternetPackage objects
         $itemsStoreInDatabase = resolve(KareneInternetPackageServiceInterface::class)->getPackages();

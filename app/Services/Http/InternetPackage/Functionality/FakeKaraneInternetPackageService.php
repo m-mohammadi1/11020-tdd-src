@@ -5,8 +5,10 @@ namespace App\Services\Http\InternetPackage\Functionality;
 
 use App\Services\Http\InternetPackage\Exceptions\KaraneProviderFailedException;
 use App\Services\Http\InternetPackage\Interfaces\KareneInternetPackageServiceInterface;
+use App\Services\Http\InternetPackage\Types\DurationType;
 use App\Services\Http\InternetPackage\Types\InternetPackage;
 use App\Services\Http\InternetPackage\Types\InternetPackageCollection;
+use App\Services\Http\InternetPackage\Types\TrafficType;
 
 class FakeKaraneInternetPackageService implements KareneInternetPackageServiceInterface
 {
@@ -24,12 +26,26 @@ class FakeKaraneInternetPackageService implements KareneInternetPackageServiceIn
                     continue;
                 }
 
+                $durationType = $package['duration']['category']['sub_type'];
+                if (!DurationType::acceptsDurationType($durationType)) {
+                    continue;
+                }
+                $durationType = new DurationType($durationType);
+
+                $trafficType = $package['traffic']['category']['sub_type'];
+                if (!TrafficType::acceptsDurationType($trafficType)) {
+                    continue;
+                }
+                $trafficType = new TrafficType($trafficType);
+
                 $item = new InternetPackage(
                     $package['type'],
                     $package['description'],
                     $package['cost'],
                     $package['duration']['category']['value'],
+                    $durationType,
                     $package['traffic']['category']['value'],
+                    $trafficType
                 );
 
                 $items[] = $item;

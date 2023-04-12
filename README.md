@@ -6,7 +6,7 @@ a project to get internet packages from provider and sell them to users with dis
 
 #### step 1
 add fixed units for traffic and duration of packages
-#####
++done
 
 
 #### step 2

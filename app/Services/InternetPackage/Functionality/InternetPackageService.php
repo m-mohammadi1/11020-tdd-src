@@ -28,6 +28,7 @@ class InternetPackageService implements InternetPackageServiceInterface
                     'code' => $package->apiIdentifier,
                     'price' => $package->price,
                     'duration' => $package->duration,
+                    'duration_type' => $package->durationType->getTypeEnum(),
                     'traffic' => $package->traffic
                 ]);
         }

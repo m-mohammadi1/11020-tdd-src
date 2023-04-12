@@ -2,8 +2,10 @@
 
 namespace Tests\Feature;
 
-use App\Models\InternetPackage;
 use App\Services\Http\InternetPackage\Interfaces\KareneInternetPackageServiceInterface;
+use App\Services\Http\InternetPackage\Types\DurationType;
+use App\Services\Http\InternetPackage\Types\InternetPackage;
+use App\Models\InternetPackage as InternetPackageModel;
 use App\Services\InternetPackage\Interfaces\InternetPackageServiceInterface;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
@@ -12,7 +14,7 @@ use Tests\TestCase;
 class InternetPackageSyncTest extends TestCase
 {
     use RefreshDatabase;
-    
+
     protected function setUp(): void
     {
         parent::setUp();
@@ -24,15 +26,36 @@ class InternetPackageSyncTest extends TestCase
 
     public function test_can_sync_services_with_provider()
     {
-        $count = InternetPackage::query()->count();
+        $count = InternetPackageModel::query()->count();
 
         $this->assertTrue($count > 0);
 
         $itemsStoreInDatabase = resolve(KareneInternetPackageServiceInterface::class)->getPackages();
 
-        $this->assertDatabaseCount(InternetPackage::class, $itemsStoreInDatabase->count());
-        $this->assertDatabaseHas(InternetPackage::class, [
+        $this->assertDatabaseCount(InternetPackageModel::class, $itemsStoreInDatabase->count());
+        $this->assertDatabaseHas(InternetPackageModel::class, [
             'code' => $itemsStoreInDatabase->first()->apiIdentifier
         ]);
+    }
+
+    public function test_synced_packages_duration_is_correct()
+    {
+        // get a fake stub package
+        // check duration type on InternetPackage objects
+        $itemsStoreInDatabase = resolve(KareneInternetPackageServiceInterface::class)->getPackages();
+        /** @var InternetPackage $firstItem */
+        $firstItem = $itemsStoreInDatabase->random();
+        $this->assertInstanceOf(DurationType::class, $firstItem->durationType);
+
+        // get the package from database by code and check
+        // it has the right values and types
+        /** @var \App\Models\InternetPackage $package */
+        /** @var InternetPackage $stubPackage */
+
+        $package = \App\Models\InternetPackage::query()->inRandomOrder()->first();
+        $stubPackage = $itemsStoreInDatabase->where('apiIdentifier', $package->code)->first();
+
+        $this->assertEquals($package->duration, $stubPackage->duration);
+        $this->assertEquals($package->duration_type, $stubPackage->durationType->getTypeEnum());
     }
 }

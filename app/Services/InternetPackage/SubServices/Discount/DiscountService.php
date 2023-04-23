@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Discount;
+namespace App\Services\InternetPackage\SubServices\Discount;
 
 class DiscountService implements DiscountServiceInterface
 {

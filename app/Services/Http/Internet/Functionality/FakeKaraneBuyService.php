@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Services\Http\InternetPackage\Functionality;
+namespace App\Services\Http\Internet\Functionality;
 
-use App\Services\Http\InternetPackage\Interfaces\KaraneInternetPackageBuyServiceInterface;
-use App\Services\Http\InternetPackage\Types\BuyPackageResponse;
+use App\Services\Http\Internet\Interfaces\KaraneInternetInterface;
+use App\Services\Http\Internet\Types\BuyPackageResponse;
 
-class FakeKaraneBuyService implements KaraneInternetPackageBuyServiceInterface
+class FakeKaraneBuyService implements KaraneInternetInterface
 {
     public function buyPackage(string $phoneNumber, string $code): BuyPackageResponse
     {

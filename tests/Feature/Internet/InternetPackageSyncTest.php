@@ -1,15 +1,14 @@
 <?php
 
-namespace Tests\Feature;
+namespace Tests\Feature\Internet;
 
-use App\Services\Http\InternetPackage\Interfaces\KareneInternetPackageServiceInterface;
-use App\Services\Http\InternetPackage\Types\DurationType;
-use App\Services\Http\InternetPackage\Types\InternetPackage;
 use App\Models\InternetPackage as InternetPackageModel;
-use App\Services\Http\InternetPackage\Types\TrafficType;
-use App\Services\InternetPackage\Interfaces\InternetPackageServiceInterface;
+use App\Services\Http\Internet\Interfaces\KareneInternetInterface;
+use App\Services\Http\Internet\Types\DurationType;
+use App\Services\Http\Internet\Types\InternetPackage;
+use App\Services\Http\Internet\Types\TrafficType;
+use App\Services\InternetPackage\Interfaces\GetInternetInterface;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
 class InternetPackageSyncTest extends TestCase
@@ -20,7 +19,7 @@ class InternetPackageSyncTest extends TestCase
     {
         parent::setUp();
 
-        resolve(InternetPackageServiceInterface::class)
+        resolve(GetInternetInterface::class)
             ->syncInternetPackagesInSystem();
     }
 
@@ -31,7 +30,7 @@ class InternetPackageSyncTest extends TestCase
 
         $this->assertTrue($count > 0);
 
-        $itemsStoreInDatabase = resolve(KareneInternetPackageServiceInterface::class)->getPackages();
+        $itemsStoreInDatabase = resolve(KareneInternetInterface::class)->getPackages();
 
         $this->assertDatabaseCount(InternetPackageModel::class, $itemsStoreInDatabase->count());
         $this->assertDatabaseHas(InternetPackageModel::class, [
@@ -45,7 +44,7 @@ class InternetPackageSyncTest extends TestCase
 
         // get a fake stub package
         // check duration type on InternetPackage objects
-        $itemsStoreInDatabase = resolve(KareneInternetPackageServiceInterface::class)->getPackages();
+        $itemsStoreInDatabase = resolve(KareneInternetInterface::class)->getPackages();
         /** @var InternetPackage $firstItem */
         $firstItem = $itemsStoreInDatabase->random();
         $this->assertInstanceOf(DurationType::class, $firstItem->durationType);
@@ -66,7 +65,7 @@ class InternetPackageSyncTest extends TestCase
     {
         // get a fake stub package
         // check duration type on InternetPackage objects
-        $itemsStoreInDatabase = resolve(KareneInternetPackageServiceInterface::class)->getPackages();
+        $itemsStoreInDatabase = resolve(KareneInternetInterface::class)->getPackages();
         /** @var InternetPackage $firstItem */
         $firstItem = $itemsStoreInDatabase->random();
         $this->assertInstanceOf(TrafficType::class, $firstItem->trafficType);

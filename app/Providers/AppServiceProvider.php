@@ -2,16 +2,16 @@
 
 namespace App\Providers;
 
-use App\Services\Discount\DiscountService;
-use App\Services\Discount\DiscountServiceInterface;
-use App\Services\Http\InternetPackage\Functionality\FakeKaraneBuyService;
-use App\Services\Http\InternetPackage\Functionality\FakeKaraneInternetPackageService;
-use App\Services\Http\InternetPackage\Interfaces\KaraneInternetPackageBuyServiceInterface;
-use App\Services\Http\InternetPackage\Interfaces\KareneInternetPackageServiceInterface;
-use App\Services\InternetPackage\Functionality\BuyInternetPackageService;
-use App\Services\InternetPackage\Functionality\InternetPackageService;
-use App\Services\InternetPackage\Interfaces\BuyInternetPackageServiceInterface;
-use App\Services\InternetPackage\Interfaces\InternetPackageServiceInterface;
+use App\Services\Http\Internet\Interfaces\KaraneInternetInterface;
+use App\Services\Http\Internet\Interfaces\KareneInternetInterface;
+use App\Services\Http\Internet\Functionality\FakeKaraneBuyService;
+use App\Services\Http\Internet\Functionality\FakeKaraneInternet;
+use App\Services\InternetPackage\Functionality\BuyInternet;
+use App\Services\InternetPackage\Functionality\GetInternet;
+use App\Services\InternetPackage\Interfaces\BuyInternetInterface;
+use App\Services\InternetPackage\Interfaces\GetInternetInterface;
+use App\Services\InternetPackage\SubServices\Discount\DiscountService;
+use App\Services\InternetPackage\SubServices\Discount\DiscountServiceInterface;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -23,10 +23,14 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind(KaraneInternetPackageBuyServiceInterface::class, FakeKaraneBuyService::class);
-        $this->app->bind(BuyInternetPackageServiceInterface::class, BuyInternetPackageService::class);
-        $this->app->bind(InternetPackageServiceInterface::class, InternetPackageService::class);
-        $this->app->bind(KareneInternetPackageServiceInterface::class, FakeKaraneInternetPackageService::class);
+        // http layer
+        $this->app->bind(KaraneInternetInterface::class, FakeKaraneBuyService::class);
+        $this->app->bind(KareneInternetInterface::class, FakeKaraneInternet::class);
+
+
+        // core domain
+        $this->app->bind(BuyInternetInterface::class, BuyInternet::class);
+        $this->app->bind(GetInternetInterface::class, GetInternet::class);
         $this->app->bind(DiscountServiceInterface::class, DiscountService::class);
     }
 

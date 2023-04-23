@@ -1,16 +1,16 @@
 <?php
 
-namespace App\Services\Http\InternetPackage\Functionality;
+namespace App\Services\Http\Internet\Functionality;
 
 
-use App\Services\Http\InternetPackage\Exceptions\KaraneProviderFailedException;
-use App\Services\Http\InternetPackage\Interfaces\KareneInternetPackageServiceInterface;
-use App\Services\Http\InternetPackage\Types\DurationType;
-use App\Services\Http\InternetPackage\Types\InternetPackage;
-use App\Services\Http\InternetPackage\Types\InternetPackageCollection;
-use App\Services\Http\InternetPackage\Types\TrafficType;
+use App\Services\Http\Internet\Exceptions\KaraneProviderFailedException;
+use App\Services\Http\Internet\Interfaces\KareneInternetInterface;
+use App\Services\Http\Internet\Types\DurationType;
+use App\Services\Http\Internet\Types\InternetPackage;
+use App\Services\Http\Internet\Types\InternetPackageCollection;
+use App\Services\Http\Internet\Types\TrafficType;
 
-class FakeKaraneInternetPackageService implements KareneInternetPackageServiceInterface
+class FakeKaraneInternet implements KareneInternetInterface
 {
 
     public function getPackages(): InternetPackageCollection

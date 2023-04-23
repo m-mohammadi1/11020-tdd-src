@@ -1,15 +1,14 @@
 <?php
 
-namespace Tests\Feature;
+namespace Tests\Feature\Internet;
 
 use App\Enums\OrderStatus;
 use App\Models\InternetPackage;
 use App\Models\User;
-use App\Services\Discount\DiscountServiceInterface;
-use App\Services\Http\InternetPackage\Interfaces\KareneInternetPackageServiceInterface;
 use App\Services\InternetPackage\Exceptions\UserWalletAmountNotEnoughException;
-use App\Services\InternetPackage\Interfaces\BuyInternetPackageServiceInterface;
-use App\Services\InternetPackage\Interfaces\InternetPackageServiceInterface;
+use App\Services\InternetPackage\Interfaces\BuyInternetInterface;
+use App\Services\InternetPackage\Interfaces\GetInternetInterface;
+use App\Services\InternetPackage\SubServices\Discount\DiscountServiceInterface;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Mockery\MockInterface;
 use Tests\TestCase;
@@ -22,7 +21,7 @@ class InternetPackageBuyProcessTest extends TestCase
     {
         parent::setUp();
 
-        resolve(InternetPackageServiceInterface::class)
+        resolve(GetInternetInterface::class)
             ->syncInternetPackagesInSystem();
     }
 
@@ -35,7 +34,7 @@ class InternetPackageBuyProcessTest extends TestCase
                 'wallet_amount' => $packagge->price + 1
             ]);
 
-        $result = resolve(BuyInternetPackageServiceInterface::class)
+        $result = resolve(BuyInternetInterface::class)
             ->buyPackageForUser($user, $packagge);
 
         $this->assertDatabaseHas('orders', [
@@ -57,7 +56,7 @@ class InternetPackageBuyProcessTest extends TestCase
 
         $this->expectException(UserWalletAmountNotEnoughException::class);
 
-        resolve(BuyInternetPackageServiceInterface::class)
+        resolve(BuyInternetInterface::class)
             ->buyPackageForUser($user, $packagge);
     }
 
@@ -78,7 +77,7 @@ class InternetPackageBuyProcessTest extends TestCase
                 'wallet_amount' => $userWalletAmount
             ]);
 
-        resolve(BuyInternetPackageServiceInterface::class)
+        resolve(BuyInternetInterface::class)
             ->buyPackageForUser($user, $packagge);
 
         $user = $user->fresh();

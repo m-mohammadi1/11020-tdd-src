@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Http\InternetPackage\Exceptions;
+namespace App\Services\Http\Internet\Exceptions;
 
 class KaraneProviderFailedException extends \Exception
 {

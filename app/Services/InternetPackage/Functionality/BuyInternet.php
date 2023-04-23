@@ -6,17 +6,17 @@ use App\Enums\OrderStatus;
 use App\Models\InternetPackage;
 use App\Models\Order;
 use App\Models\User;
-use App\Services\Discount\DiscountServiceInterface;
-use App\Services\Http\InternetPackage\Interfaces\KaraneInternetPackageBuyServiceInterface;
+use App\Services\Http\Internet\Interfaces\KaraneInternetInterface;
 use App\Services\InternetPackage\Exceptions\UserWalletAmountNotEnoughException;
-use App\Services\InternetPackage\Interfaces\BuyInternetPackageServiceInterface;
+use App\Services\InternetPackage\Interfaces\BuyInternetInterface;
+use App\Services\InternetPackage\SubServices\Discount\DiscountServiceInterface;
 use Illuminate\Support\Facades\DB;
 
-class BuyInternetPackageService implements BuyInternetPackageServiceInterface
+class BuyInternet implements BuyInternetInterface
 {
 
     public function __construct(
-        private KaraneInternetPackageBuyServiceInterface $internetPackageBuyService,
+        private KaraneInternetInterface  $internetPackageBuyService,
         private DiscountServiceInterface $discountService,
     )
     {

@@ -3,15 +3,14 @@
 namespace App\Services\InternetPackage\Functionality;
 
 use App\Models\InternetPackage;
-use App\Models\User;
-use App\Services\Http\InternetPackage\Interfaces\KareneInternetPackageServiceInterface;
-use App\Services\InternetPackage\Interfaces\InternetPackageServiceInterface;
-use App\Services\InternetPackage\Types\InternetPackageBuyResponse;
+use App\Services\Http\Internet\Interfaces\KareneInternetInterface;
+use App\Services\InternetPackage\Interfaces\GetInternetInterface;
 
-class InternetPackageService implements InternetPackageServiceInterface
+
+class GetInternet implements GetInternetInterface
 {
     public function __construct(
-        private KareneInternetPackageServiceInterface $internetPackageService
+        private KareneInternetInterface $internetPackageService
     )
     {
     }
@@ -20,7 +19,7 @@ class InternetPackageService implements InternetPackageServiceInterface
     {
         $packages = $this->internetPackageService->getPackages();
 
-        /** @var \App\Services\Http\InternetPackage\Types\InternetPackage $package */
+        /** @var \App\Services\Http\Internet\Types\InternetPackage $package */
         foreach ($packages as $package) {
             InternetPackage::query()
                 ->create([

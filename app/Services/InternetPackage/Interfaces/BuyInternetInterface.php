@@ -6,7 +6,7 @@ use App\Models\InternetPackage;
 use App\Models\Order;
 use App\Models\User;
 
-interface BuyInternetPackageServiceInterface
+interface BuyInternetInterface
 {
 
     public function buyPackageForUser(User $user, InternetPackage $package): Order;

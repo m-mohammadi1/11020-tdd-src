@@ -3,7 +3,7 @@
 namespace App\Services\InternetPackage\Interfaces;
 
 
-interface InternetPackageServiceInterface
+interface GetInternetInterface
 {
 
     public function syncInternetPackagesInSystem();

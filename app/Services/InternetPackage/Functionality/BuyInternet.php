@@ -2,12 +2,12 @@
 
 namespace App\Services\InternetPackage\Functionality;
 
+use App\Enums\Operator;
 use App\Enums\OrderStatus;
 use App\Models\InternetPackage;
 use App\Models\Order;
 use App\Models\User;
 use App\Services\Http\Internet\Interfaces\KaraneSyncInternetInterface;
-use App\Services\Http\Internet\Types\Operator;
 use App\Services\InternetPackage\Exceptions\InvalidOperatorProvidedException;
 use App\Services\InternetPackage\Exceptions\UserWalletAmountNotEnoughException;
 use App\Services\InternetPackage\Interfaces\BuyInternetInterface;

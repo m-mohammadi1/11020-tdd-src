@@ -2,11 +2,11 @@
 
 namespace Tests\Feature\Internet;
 
+use App\Enums\Operator;
 use App\Models\InternetPackage as InternetPackageModel;
 use App\Services\Http\Internet\Interfaces\KaraneBuyInternetInterface;
 use App\Services\Http\Internet\Types\DurationType;
 use App\Services\Http\Internet\Types\InternetPackage;
-use App\Services\Http\Internet\Types\Operator;
 use App\Services\Http\Internet\Types\TrafficType;
 use App\Services\InternetPackage\Interfaces\GetInternetInterface;
 use Illuminate\Foundation\Testing\RefreshDatabase;

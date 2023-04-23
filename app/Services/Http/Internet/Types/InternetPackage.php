@@ -2,6 +2,8 @@
 
 namespace App\Services\Http\Internet\Types;
 
+use App\Enums\Operator;
+
 class InternetPackage
 {
     public function __construct(

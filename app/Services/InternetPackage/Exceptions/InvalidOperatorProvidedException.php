@@ -2,7 +2,7 @@
 
 namespace App\Services\InternetPackage\Exceptions;
 
-use App\Services\Http\Internet\Types\Operator;
+use App\Enums\Operator;
 
 class InvalidOperatorProvidedException extends \Exception
 {

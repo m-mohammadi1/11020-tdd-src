@@ -3,8 +3,8 @@
 namespace App\Models;
 
 use App\Enums\DurationType;
+use App\Enums\Operator;
 use App\Enums\TrafficType;
-use App\Services\Http\Internet\Types\Operator;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 

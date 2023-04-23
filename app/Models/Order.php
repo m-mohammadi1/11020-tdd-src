@@ -2,8 +2,8 @@
 
 namespace App\Models;
 
+use App\Enums\Operator;
 use App\Enums\OrderStatus;
-use App\Services\Http\Internet\Types\Operator;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 

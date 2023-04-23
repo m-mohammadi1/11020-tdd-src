@@ -2,9 +2,9 @@
 
 namespace App\Services\Http\Internet\Functionality;
 
+use App\Enums\Operator;
 use App\Services\Http\Internet\Interfaces\KaraneSyncInternetInterface;
 use App\Services\Http\Internet\Types\BuyPackageResponse;
-use App\Services\Http\Internet\Types\Operator;
 
 class FakeKaraneBuyInternet implements KaraneSyncInternetInterface
 {

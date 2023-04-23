@@ -3,12 +3,12 @@
 namespace App\Services\Http\Internet\Functionality;
 
 
+use App\Enums\Operator;
 use App\Services\Http\Internet\Exceptions\KaraneProviderFailedException;
 use App\Services\Http\Internet\Interfaces\KaraneBuyInternetInterface;
 use App\Services\Http\Internet\Types\DurationType;
 use App\Services\Http\Internet\Types\InternetPackage;
 use App\Services\Http\Internet\Types\InternetPackageCollection;
-use App\Services\Http\Internet\Types\Operator;
 use App\Services\Http\Internet\Types\TrafficType;
 
 class FakeKaraneInternet implements KaraneBuyInternetInterface

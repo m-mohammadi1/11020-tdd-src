@@ -2,9 +2,9 @@
 
 namespace Tests\Feature\Internet;
 
+use App\Enums\Operator;
 use App\Models\InternetPackage;
 use App\Models\User;
-use App\Services\Http\Internet\Types\Operator;
 use App\Services\InternetPackage\Interfaces\BuyInternetInterface;
 use App\Services\InternetPackage\Interfaces\GetInternetInterface;
 use Illuminate\Foundation\Testing\RefreshDatabase;

@@ -2,9 +2,9 @@
 
 namespace App\Services\InternetPackage\Functionality;
 
+use App\Enums\Operator;
 use App\Models\InternetPackage;
 use App\Services\Http\Internet\Interfaces\KaraneBuyInternetInterface;
-use App\Services\Http\Internet\Types\Operator;
 use App\Services\InternetPackage\Interfaces\GetInternetInterface;
 
 

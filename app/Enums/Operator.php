@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Http\Internet\Types;
+namespace App\Enums;
 
 enum Operator: string
 {

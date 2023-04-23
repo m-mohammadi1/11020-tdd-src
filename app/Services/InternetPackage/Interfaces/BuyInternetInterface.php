@@ -2,10 +2,10 @@
 
 namespace App\Services\InternetPackage\Interfaces;
 
+use App\Enums\Operator;
 use App\Models\InternetPackage;
 use App\Models\Order;
 use App\Models\User;
-use App\Services\Http\Internet\Types\Operator;
 
 interface BuyInternetInterface
 {

@@ -4,6 +4,7 @@ namespace App\Models;
 
 use App\Enums\DurationType;
 use App\Enums\TrafficType;
+use App\Services\Http\Internet\Types\Operator;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -16,6 +17,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property DurationType $duration_type
  * @property int $traffic
  * @property TrafficType $traffic_type
+ * @property Operator $operator
  */
 class InternetPackage extends Model
 {
@@ -26,6 +28,7 @@ class InternetPackage extends Model
     protected $casts = [
         'duration_type' => DurationType::class,
         'traffic_type' => TrafficType::class,
+        'operator' => Operator::class,
     ];
 
     public function getFinalPriceWithDiscount(int $discountPercentage): float

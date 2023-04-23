@@ -5,7 +5,7 @@ namespace App\Services\Http\Internet\Functionality;
 use App\Services\Http\Internet\Interfaces\KaraneSyncInternetInterface;
 use App\Services\Http\Internet\Types\BuyPackageResponse;
 
-class FakeKaraneBuyServiceSync implements KaraneSyncInternetInterface
+class FakeKaraneBuyInternet implements KaraneSyncInternetInterface
 {
     public function buyPackage(string $phoneNumber, string $code): BuyPackageResponse
     {

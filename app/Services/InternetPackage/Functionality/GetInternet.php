@@ -4,6 +4,7 @@ namespace App\Services\InternetPackage\Functionality;
 
 use App\Models\InternetPackage;
 use App\Services\Http\Internet\Interfaces\KaraneBuyInternetInterface;
+use App\Services\Http\Internet\Types\Operator;
 use App\Services\InternetPackage\Interfaces\GetInternetInterface;
 
 
@@ -17,7 +18,11 @@ class GetInternet implements GetInternetInterface
 
     public function syncInternetPackagesInSystem()
     {
-        $packages = $this->internetPackageService->getPackages();
+        $mciPackages = $this->internetPackageService->getPackages(Operator::MCI);
+        $mtnPackages = $this->internetPackageService->getPackages(Operator::MTN);
+        $rightelPackages = $this->internetPackageService->getPackages(Operator::RIGHTEL);
+
+        $packages = $mciPackages->merge($mtnPackages)->merge($rightelPackages);
 
         /** @var \App\Services\Http\Internet\Types\InternetPackage $package */
         foreach ($packages as $package) {
@@ -30,6 +35,7 @@ class GetInternet implements GetInternetInterface
                     'duration_type' => $package->durationType->getTypeEnum(),
                     'traffic' => $package->traffic,
                     'traffic_type' => $package->trafficType->getTypeEnum(),
+                    'operator' => $package->operator
                 ]);
         }
     }

@@ -1,0 +1,4132 @@
+{
+    "data": [
+        {
+            "type": "52692",
+            "cost": 414200,
+            "description": "\u0645\u0648\u062f\u0645 TD-LTE - \u0646\u0627\u0645\u062d\u062f\u0648\u062f TD-LTE - 2 \u0645\u06af\u0627\u0628\u06cc\u062a \u0645\u0627\u0647\u06cc\u0627\u0646\u0647(\u062d\u062c\u0645 \u0645\u0646\u0635\u0641\u0627\u0646\u0647 30 \u06af\u06cc\u06af)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e7b16862ec3bf30f77209e5",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "INFINITE",
+                    "value": -1
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-25T08:29:58.772Z",
+                "updated_at": "2020-03-25T08:29:58.772Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "85571",
+            "cost": 294300,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u062f\u0631\u062e\u0634\u0627\u0646 \u0647\u0648\u0631\u0627 : \u0628\u0633\u062a\u0647 \u0627\u06cc\u0646\u062a\u0631\u0646\u062a 7GB \/\u0622\u067e\u0627\u0631\u0627\u062a 400MB GAP\/ 500  MB \/\u062a\u0645\u0627\u0633 \u062f\u0627\u062e\u0644 \u0634\u0628\u06a9\u0647 30 \u062f\u0642\u06cc\u0642\u0647",
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05287",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 7
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "63173",
+            "cost": 98100,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0645\u0627\u0647\u0647 30\u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a(2\u062a\u06277 \u0635\u0628\u062d)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05296",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 30
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "63261",
+            "cost": 114450,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0645\u0627\u0647\u0647 1 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05272",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": true,
+            "chargeType": 1
+        },
+        {
+            "type": "73994",
+            "cost": 98100,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0645\u0627\u0647\u0647 10\u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a(6\u0635\u0628\u062d \u062a\u062712\u0638\u0647\u0631)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527c",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 10
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "73993",
+            "cost": 81750,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0645\u0627\u0647\u0647 7\u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a(6\u0635\u0628\u062d \u062a\u062712\u0638\u0647\u0631)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05287",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 7
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "63262",
+            "cost": 152600,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0645\u0627\u0647\u0647 2 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05274",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": true,
+            "chargeType": 1
+        },
+        {
+            "type": "85568",
+            "cost": 327000,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u062f\u0627\u06cc\u0645\u06cc - \u062a\u0631\u06a9\u06cc\u0628\u06cc \u0647\u0648\u0631\u0627 \u06cc\u06a9 \u0645\u0627\u0647\u0647 - 10 GB \u0627\u06cc\u0646\u062a\u0631\u0646\u062a + 800 MB \u0622\u067e\u0627\u0631\u0627\u062a + 500 MB \u0622\u06cc \u06af\u067e + 30 \u062f\u0642\u06cc\u0642\u0647 \u0645\u06a9\u0627\u0644\u0645\u0647 \u062f\u0631\u0648\u0646 \u0634\u0628\u06a9\u0647",
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527c",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 10
+                },
+                "status": "ACTIVE"
+            },
+            "in_network_conversation": {
+                "_id": "604cb8591800cc8ed5f5b3e5",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 30
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T13:04:25.549Z",
+                "updated_at": "2021-03-13T13:04:25.549Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "85570",
+            "cost": 218000,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u062f\u0627\u06cc\u0645\u06cc - \u062a\u0631\u06a9\u06cc\u0628\u06cc \u0647\u0648\u0631\u0627 \u06cc\u06a9 \u0645\u0627\u0647\u0647 - 4 GB \u0627\u06cc\u0646\u062a\u0631\u0646\u062a + 300 MB \u0622\u067e\u0627\u0631\u0627\u062a + 250 MB \u0622\u06cc \u06af\u067e + 15 \u062f\u0642\u06cc\u0642\u0647 \u0645\u06a9\u0627\u0644\u0645\u0647 \u062f\u0631\u0648\u0646 \u0634\u0628\u06a9\u0647",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d99a9d0a9b9f3235e38cac7",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 4
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:46:08.295Z",
+                "updated_at": "2019-10-06T08:46:08.295Z",
+                "v": 0
+            },
+            "in_network_conversation": {
+                "_id": "604cb851c803f58ee6ac6115",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T13:04:17.851Z",
+                "updated_at": "2021-03-13T13:04:17.851Z",
+                "v": 0
+            },
+            "isSpecial": true,
+            "chargeType": 1
+        },
+        {
+            "type": "63361",
+            "cost": 76300,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 15\u0631\u0648\u0632\u0647 400 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529a",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 400
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "63362",
+            "cost": 98100,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 15\u0631\u0648\u0632\u0647 750 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05277",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 750
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "63366",
+            "cost": 201650,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 15\u0631\u0648\u0632\u0647 5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "73991",
+            "cost": 49050,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u0647\u0641\u062a\u06af\u06cc 4\u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a(6\u0635\u0628\u062d \u062a\u062712\u0638\u0647\u0631)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d99a9d0a9b9f3235e38cac7",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 4
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:46:08.295Z",
+                "updated_at": "2019-10-06T08:46:08.295Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "73073",
+            "cost": 27250,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u0647\u0641\u062a\u06af\u06cc 5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a(2\u062a\u06277\u0635\u0628\u062d)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "63354",
+            "cost": 47960,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u062f\u0627\u06cc\u0645\u06cc - \u0647\u0641\u062a\u06af\u06cc - 200 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0528c",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 200
+                }
+            },
+            "isSpecial": true,
+            "chargeType": 1
+        },
+        {
+            "type": "63357",
+            "cost": 90470,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u0647\u0641\u062a\u06af\u06cc 750 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05277",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 750
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": true,
+            "chargeType": 1
+        },
+        {
+            "type": "63364",
+            "cost": 158050,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 15\u0631\u0648\u0632\u0647 2.5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529e",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2.5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "63363",
+            "cost": 125350,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 15\u0631\u0648\u0632\u0647 1.5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05276",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1.5
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "63365",
+            "cost": 179850,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 15\u0631\u0648\u0632\u0647 3.5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5e6383e5ce8aa1151ae4db90",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3.5
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:22:13.631Z",
+                "updated_at": "2020-03-07T11:22:13.631Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "73072",
+            "cost": 16350,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u0647\u0641\u062a\u06af\u06cc 2 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a(2\u062a\u06277\u0635\u0628\u062d)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05274",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "63360",
+            "cost": 196200,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u0647\u0641\u062a\u06af\u06cc 5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "63356",
+            "cost": 76300,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u0647\u0641\u062a\u06af\u06cc 500 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05278",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 500
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": true,
+            "chargeType": 1
+        },
+        {
+            "type": "63359",
+            "cost": 141700,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u0647\u0641\u062a\u06af\u06cc 2.5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529e",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2.5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "63347",
+            "cost": 102460,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0631\u0648\u0632\u0647 2.5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529e",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2.5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "63355",
+            "cost": 59950,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u062f\u0627\u06cc\u0645\u06cc - \u0647\u0641\u062a\u06af\u06cc - 300 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d99aa0aa9b9f3235e38cacb",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 300
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:47:06.199Z",
+                "updated_at": "2019-10-06T08:47:06.199Z",
+                "v": 0
+            },
+            "isSpecial": true,
+            "chargeType": 1
+        },
+        {
+            "type": "63358",
+            "cost": 118810,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u0647\u0641\u062a\u06af\u06cc 1.5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05276",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1.5
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": true,
+            "chargeType": 1
+        },
+        {
+            "type": "63342",
+            "cost": 34880,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0631\u0648\u0632\u0647 200 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0528c",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 200
+                }
+            },
+            "isSpecial": true,
+            "chargeType": 1
+        },
+        {
+            "type": "63341",
+            "cost": 23980,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0631\u0648\u0632\u0647 100 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0528a",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 100
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "73070",
+            "cost": 5450,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u0631\u0648\u0632\u0627\u0646\u0647 500 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a(2\u062a\u06277\u0635\u0628\u062d)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05278",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 500
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "63345",
+            "cost": 62130,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0631\u0648\u0632\u0647 750 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05277",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 750
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": true,
+            "chargeType": 1
+        },
+        {
+            "type": "63346",
+            "cost": 80660,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0631\u0648\u0632\u0647 1.5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05276",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1.5
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "63344",
+            "cost": 49050,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0631\u0648\u0632\u0647 400 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529a",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 400
+                }
+            },
+            "isSpecial": true,
+            "chargeType": 1
+        },
+        {
+            "type": "63343",
+            "cost": 42510,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0631\u0648\u0632\u0647 300 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d99aa0aa9b9f3235e38cacb",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 300
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:47:06.199Z",
+                "updated_at": "2019-10-06T08:47:06.199Z",
+                "v": 0
+            },
+            "isSpecial": true,
+            "chargeType": 1
+        },
+        {
+            "type": "63340",
+            "cost": 17440,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u062f\u0627\u06cc\u0645\u06cc - \u0631\u0648\u0632\u0627\u0646\u0647  - 60 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529c",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 60
+                }
+            },
+            "isSpecial": true,
+            "chargeType": 1
+        },
+        {
+            "type": "61994",
+            "cost": 98100,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0645\u0627\u0647\u0647 10\u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a(6\u0635\u0628\u062d \u062a\u062712\u0638\u0647\u0631)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527c",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 10
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "85312",
+            "cost": 283400,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u062a\u0631\u06a9\u06cc\u0628\u06cc \u0647\u0648\u0631\u0627 \u06cc\u06a9 \u0645\u0627\u0647\u0647 - 7 GB \u0627\u06cc\u0646\u062a\u0631\u0646\u062a + 500 MB \u0622\u067e\u0627\u0631\u0627\u062a + 400 MB \u0622\u06cc \u06af\u067e + 20 \u062f\u0642\u06cc\u0642\u0647 \u0645\u06a9\u0627\u0644\u0645\u0647 \u062f\u0631\u0648\u0646 \u0634\u0628\u06a9\u0647",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05287",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 7
+                }
+            },
+            "in_network_conversation": {
+                "_id": "604cb46c1800cc8ed5f5b3e4",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 20
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T12:47:40.905Z",
+                "updated_at": "2021-03-13T12:47:40.905Z",
+                "v": 0
+            },
+            "isSpecial": true,
+            "chargeType": 0
+        },
+        {
+            "type": "61206",
+            "cost": 98100,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0645\u0627\u0647\u0647 30\u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a(2\u062a\u06277 \u0635\u0628\u062d)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05296",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 30
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61262",
+            "cost": 152600,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0645\u0627\u0647\u0647 2 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05274",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": true,
+            "chargeType": 0
+        },
+        {
+            "type": "85311",
+            "cost": 327000,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u062a\u0631\u06a9\u06cc\u0628\u06cc \u0647\u0648\u0631\u0627 \u06cc\u06a9 \u0645\u0627\u0647\u0647 - 10 GB \u0627\u06cc\u0646\u062a\u0631\u0646\u062a + 800 MB \u0622\u067e\u0627\u0631\u0627\u062a + 500 MB \u0622\u06cc \u06af\u067e + 30 \u062f\u0642\u06cc\u0642\u0647 \u0645\u06a9\u0627\u0644\u0645\u0647 \u062f\u0631\u0648\u0646 \u0634\u0628\u06a9\u0647",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527c",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 10
+                },
+                "status": "ACTIVE"
+            },
+            "in_network_conversation": {
+                "_id": "604cb8591800cc8ed5f5b3e5",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 30
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T13:04:25.549Z",
+                "updated_at": "2021-03-13T13:04:25.549Z",
+                "v": 0
+            },
+            "isSpecial": true,
+            "chargeType": 0
+        },
+        {
+            "type": "61261",
+            "cost": 114450,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0645\u0627\u0647\u0647 1 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05272",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": true,
+            "chargeType": 0
+        },
+        {
+            "type": "85314",
+            "cost": 294300,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u062a\u0631\u06a9\u06cc\u0628\u06cc \u0647\u0648\u0631\u0627 \u06cc\u06a9 \u0645\u0627\u0647\u0647 - 7 GB \u0627\u06cc\u0646\u062a\u0631\u0646\u062a + 500 MB \u0622\u067e\u0627\u0631\u0627\u062a + 400 MB \u0622\u06cc \u06af\u067e + 30 \u062f\u0642\u06cc\u0642\u0647 \u0645\u06a9\u0627\u0644\u0645\u0647 \u062f\u0631\u0648\u0646 \u0634\u0628\u06a9\u0647",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05287",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 7
+                }
+            },
+            "in_network_conversation": {
+                "_id": "604cb8591800cc8ed5f5b3e5",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 30
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T13:04:25.549Z",
+                "updated_at": "2021-03-13T13:04:25.549Z",
+                "v": 0
+            },
+            "isSpecial": true,
+            "chargeType": 0
+        },
+        {
+            "type": "61646",
+            "cost": 201650,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - 15 \u0631\u0648\u0632\u0647 - 5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61641",
+            "cost": 76300,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - 15 \u0631\u0648\u0632\u0647 - 400 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529a",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 400
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61642",
+            "cost": 98100,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 15\u0631\u0648\u0632\u0647 750 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05277",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 750
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "85313",
+            "cost": 218000,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u062a\u0631\u06a9\u06cc\u0628\u06cc \u0647\u0648\u0631\u0627 \u06cc\u06a9 \u0645\u0627\u0647\u0647 - 4 GB \u0627\u06cc\u0646\u062a\u0631\u0646\u062a + 300 MB \u0622\u067e\u0627\u0631\u0627\u062a + 250 MB \u0622\u06cc \u06af\u067e + 15 \u062f\u0642\u06cc\u0642\u0647 \u0645\u06a9\u0627\u0644\u0645\u0647 \u062f\u0631\u0648\u0646 \u0634\u0628\u06a9\u0647",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d99a9d0a9b9f3235e38cac7",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 4
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:46:08.295Z",
+                "updated_at": "2019-10-06T08:46:08.295Z",
+                "v": 0
+            },
+            "in_network_conversation": {
+                "_id": "604cb851c803f58ee6ac6115",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T13:04:17.851Z",
+                "updated_at": "2021-03-13T13:04:17.851Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61993",
+            "cost": 81750,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0645\u0627\u0647\u0647 7\u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a(6\u0635\u0628\u062d \u062a\u062712\u0638\u0647\u0631)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05287",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 7
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61640",
+            "cost": 196200,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0647\u0641\u062a\u06af\u06cc - 5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61634",
+            "cost": 47960,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u0647\u0641\u062a\u06af\u06cc 200 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0528c",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 200
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61639",
+            "cost": 141700,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u0647\u0641\u062a\u06af\u06cc 2.5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529e",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2.5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61645",
+            "cost": 179850,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 15\u0631\u0648\u0632\u0647 3.5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5e6383e5ce8aa1151ae4db90",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3.5
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:22:13.631Z",
+                "updated_at": "2020-03-07T11:22:13.631Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61643",
+            "cost": 125350,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 15\u0631\u0648\u0632\u0647 1.5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05276",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1.5
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "71070",
+            "cost": 5450,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u0631\u0648\u0632\u0627\u0646\u0647 500 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a(2\u062a\u06277\u0635\u0628\u062d)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05278",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 500
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61636",
+            "cost": 76300,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u0647\u0641\u062a\u06af\u06cc 500 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05278",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 500
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": true,
+            "chargeType": 0
+        },
+        {
+            "type": "61637",
+            "cost": 90470,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u0647\u0641\u062a\u06af\u06cc 750 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05277",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 750
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": true,
+            "chargeType": 0
+        },
+        {
+            "type": "61991",
+            "cost": 49050,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u0647\u0641\u062a\u06af\u06cc 4\u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a(6\u0635\u0628\u062d \u062a\u062712\u0638\u0647\u0631)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d99a9d0a9b9f3235e38cac7",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 4
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:46:08.295Z",
+                "updated_at": "2019-10-06T08:46:08.295Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61638",
+            "cost": 118810,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u0647\u0641\u062a\u06af\u06cc 1.5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05276",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1.5
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": true,
+            "chargeType": 0
+        },
+        {
+            "type": "61635",
+            "cost": 59950,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u0647\u0641\u062a\u06af\u06cc 300 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d99aa0aa9b9f3235e38cacb",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 300
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:47:06.199Z",
+                "updated_at": "2019-10-06T08:47:06.199Z",
+                "v": 0
+            },
+            "isSpecial": true,
+            "chargeType": 0
+        },
+        {
+            "type": "61625",
+            "cost": 62130,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0631\u0648\u0632\u0647 750 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05277",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 750
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": true,
+            "chargeType": 0
+        },
+        {
+            "type": "61620",
+            "cost": 17440,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0631\u0648\u0632\u0647 60 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529c",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 60
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61622",
+            "cost": 34880,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0631\u0648\u0632\u0647 200 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0528c",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 200
+                }
+            },
+            "isSpecial": true,
+            "chargeType": 0
+        },
+        {
+            "type": "61621",
+            "cost": 23980,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0631\u0648\u0632\u0647 100 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0528a",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 100
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61627",
+            "cost": 102460,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0631\u0648\u0632\u0647 2.5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529e",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2.5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61623",
+            "cost": 42510,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0631\u0648\u0632\u0647 300 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d99aa0aa9b9f3235e38cacb",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 300
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:47:06.199Z",
+                "updated_at": "2019-10-06T08:47:06.199Z",
+                "v": 0
+            },
+            "isSpecial": true,
+            "chargeType": 0
+        },
+        {
+            "type": "61626",
+            "cost": 80660,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0631\u0648\u0632\u0647 1.5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05276",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1.5
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61624",
+            "cost": 49050,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u06cc\u06a9\u0631\u0648\u0632\u0647 400 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529a",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 400
+                }
+            },
+            "isSpecial": true,
+            "chargeType": 0
+        },
+        {
+            "type": "52173",
+            "cost": 1362500,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 180 \u0631\u0648\u0632\u0647 80\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05293",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 6
+                }
+            },
+            "traffic": {
+                "_id": "5e725edda258944d9a18f570",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 80
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-18T17:48:13.885Z",
+                "updated_at": "2020-03-18T17:48:13.885Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52177",
+            "cost": 3706000,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 180 \u0631\u0648\u0632\u0647 260\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05293",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 6
+                }
+            },
+            "traffic": {
+                "_id": "5e725e6ce4cf724d699d1284",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 260
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-18T17:46:20.405Z",
+                "updated_at": "2020-03-18T17:46:20.405Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52175",
+            "cost": 2398000,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 180 \u0631\u0648\u0632\u0647 160\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05293",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 6
+                }
+            },
+            "traffic": {
+                "_id": "5e725f4bab0e814e0b258e72",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 160
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-18T17:50:03.114Z",
+                "updated_at": "2020-03-18T17:50:03.114Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52179",
+            "cost": 2616000,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 365 \u0631\u0648\u0632\u0647 160\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05295",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "YEAR",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e725f4bab0e814e0b258e72",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 160
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-18T17:50:03.114Z",
+                "updated_at": "2020-03-18T17:50:03.114Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52178",
+            "cost": 1526000,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 365 \u0631\u0648\u0632\u0647 80\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05295",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "YEAR",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e725edda258944d9a18f570",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 80
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-18T17:48:13.885Z",
+                "updated_at": "2020-03-18T17:48:13.885Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52181",
+            "cost": 5439100,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 365 \u0631\u0648\u0632\u0647 360\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05295",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "YEAR",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e63bc3ae7dac415124d0091",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 360
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T15:22:34.611Z",
+                "updated_at": "2020-03-07T15:22:34.611Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52180",
+            "cost": 4033000,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 365 \u0631\u0648\u0632\u0647 260\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05295",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "YEAR",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e725e6ce4cf724d699d1284",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 260
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-18T17:46:20.405Z",
+                "updated_at": "2020-03-18T17:46:20.405Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52171",
+            "cost": 1853000,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 90 \u0631\u0648\u0632\u0647 140\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0528d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 3
+                }
+            },
+            "traffic": {
+                "_id": "5e725f8d3ef6cc4de9d9f986",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 140
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-18T17:51:09.784Z",
+                "updated_at": "2020-03-18T17:51:09.784Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52170",
+            "cost": 1035500,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 90 \u0631\u0648\u0632\u0647 70\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0528d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 3
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05298",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 70
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52167",
+            "cost": 561350,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 90 \u0631\u0648\u0632\u0647 25\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0528d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 3
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527a",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 25
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52168",
+            "cost": 675800,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 90 \u0631\u0648\u0632\u0647 35\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0528d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 3
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05292",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 35
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52174",
+            "cost": 1962000,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 180 \u0631\u0648\u0632\u0647 120\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05293",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 6
+                }
+            },
+            "traffic": {
+                "_id": "5e637c7b1fa14c1544ba352e",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 120
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T10:50:35.067Z",
+                "updated_at": "2020-03-07T10:50:35.067Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52172",
+            "cost": 861100,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 180 \u0631\u0648\u0632\u0647 40\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05293",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 6
+                }
+            },
+            "traffic": {
+                "_id": "5e63bcd886ada014ec504ef0",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 40
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T15:25:12.738Z",
+                "updated_at": "2020-03-07T15:25:12.738Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52176",
+            "cost": 2943000,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 180 \u0631\u0648\u0632\u0647 200\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05293",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 6
+                }
+            },
+            "traffic": {
+                "_id": "5e637e17e7dac415124cfdd4",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 200
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T10:57:27.958Z",
+                "updated_at": "2020-03-07T10:57:27.958Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52162",
+            "cost": 386950,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 30 \u0631\u0648\u0632\u0647 16\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527b",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 15
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52161",
+            "cost": 332450,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 30 \u0631\u0648\u0632\u0647 12\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05281",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 12
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52166",
+            "cost": 648550,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 30 \u0631\u0648\u0632\u0647 42\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e638b720a18ee14c6cb680d",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 42
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:54:26.941Z",
+                "updated_at": "2020-03-07T11:54:26.941Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52182",
+            "cost": 327000,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 30 \u0631\u0648\u0632\u0647100 \u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc  (2 \u062a\u06277)\u0627\u0639\u062a\u0628\u0627\u0631\u06cc TD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e63891486ada014ec504caf",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 100
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:44:20.078Z",
+                "updated_at": "2020-03-07T11:44:20.078Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52169",
+            "cost": 763000,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 90 \u0631\u0648\u0632\u0647 45\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0528d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 3
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05297",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 45
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52184",
+            "cost": 817500,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 30 \u0631\u0648\u0632\u0647300 \u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc  (2 \u062a\u06277)\u0627\u0639\u062a\u0628\u0627\u0631\u06cc TD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e725ff2f322314db2f1c05c",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 300
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-18T17:52:50.217Z",
+                "updated_at": "2020-03-18T17:52:50.217Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52183",
+            "cost": 599500,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 30 \u0631\u0648\u0632\u0647200 \u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc  (2 \u062a\u06277)\u0627\u0639\u062a\u0628\u0627\u0631\u06cc TD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e637e17e7dac415124cfdd4",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 200
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T10:57:27.958Z",
+                "updated_at": "2020-03-07T10:57:27.958Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52163",
+            "cost": 436000,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 30 \u0631\u0648\u0632\u0647 20\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05299",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 20
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52160",
+            "cost": 277950,
+            "description": "\u0645\u0648\u062f\u0645 TD-LTE - \u0645\u0627\u0647\u0627\u0646\u0647 - 9 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a\u06cc",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05282",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 9
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52158",
+            "cost": 272500,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u0647\u0641\u062a\u06af\u06cc 10 \u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06ccTDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527c",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 10
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52159",
+            "cost": 354250,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u0647\u0641\u062a\u06af\u06cc 14 \u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06ccTDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5e63bf3ffd009714a2c0a42d",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 14
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T15:35:27.942Z",
+                "updated_at": "2020-03-07T15:35:27.942Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52165",
+            "cost": 566800,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 30 \u0631\u0648\u0632\u0647 32\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e72602aab0e814e0b258e7b",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 32
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-18T17:53:46.629Z",
+                "updated_at": "2020-03-18T17:53:46.629Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52164",
+            "cost": 479600,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 30 \u0631\u0648\u0632\u0647 24\u06af\u06cc\u06af\u0627 \u0628\u0627\u06cc\u062a\u06cc \u0627\u0639\u062a\u0628\u0627\u0631\u06cc TDD",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e638a0dfd009714a2c0a1d5",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 24
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:48:29.586Z",
+                "updated_at": "2020-03-07T11:48:29.586Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "63350",
+            "cost": 57770,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 3\u0631\u0648\u0632\u0647 400 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529a",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 400
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "63353",
+            "cost": 119900,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 3\u0631\u0648\u0632\u0647 2.5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529e",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2.5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "63348",
+            "cost": 38150,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 3\u0631\u0648\u0632\u0647 150 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529b",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 150
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "63352",
+            "cost": 98100,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 3\u0631\u0648\u0632\u0647 1.5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05276",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1.5
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "63349",
+            "cost": 47960,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 3\u0631\u0648\u0632\u0647 250 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 250
+                }
+            },
+            "isSpecial": true,
+            "chargeType": 1
+        },
+        {
+            "type": "63351",
+            "cost": 73030,
+            "description": "\u062f\u0627\u0626\u0645\u06cc - \u0628\u0633\u062a\u0647 3\u0631\u0648\u0632\u0647 750 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05277",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 750
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "61311",
+            "cost": 392400,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - 2 \u0645\u0627\u0647\u0647 - 10 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0527d",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527c",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 10
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61632",
+            "cost": 98100,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 3\u0631\u0648\u0632\u0647 1.5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05276",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1.5
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61628",
+            "cost": 38150,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 3\u0631\u0648\u0632\u0647 150 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529b",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 150
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61631",
+            "cost": 73030,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 3\u0631\u0648\u0632\u0647 750 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05277",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 750
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61629",
+            "cost": 47960,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 3\u0631\u0648\u0632\u0647 250 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 250
+                }
+            },
+            "isSpecial": true,
+            "chargeType": 0
+        },
+        {
+            "type": "61633",
+            "cost": 119900,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 3\u0631\u0648\u0632\u0647 2.5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529e",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2.5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61630",
+            "cost": 57770,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 3\u0631\u0648\u0632\u0647 400 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529a",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 400
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "85556",
+            "cost": 348800,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u062f\u0627\u06cc\u0645\u06cc - \u0628\u0633\u062a\u0647 \u0645\u06a9\u0627\u0644\u0645\u0647 \u0645\u0627\u0647\u0627\u0646\u0647 - 800 \u062f\u0642\u06cc\u0642\u0647 \u0627\u06cc \u062f\u0627\u062e\u0644 \u0634\u0628\u06a9\u0647 ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "in_network_conversation": {
+                "_id": "604cb4d0c803f58ee6ac6112",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 800
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T12:49:20.484Z",
+                "updated_at": "2021-03-13T12:49:20.484Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "85554",
+            "cost": 109000,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u062f\u0627\u06cc\u0645\u06cc - \u0628\u0633\u062a\u0647 \u0645\u06a9\u0627\u0644\u0645\u0647 \u0645\u0627\u0647\u0627\u0646\u0647 - 200 \u062f\u0642\u06cc\u0642\u0647 \u0627\u06cc \u062f\u0627\u062e\u0644 \u0634\u0628\u06a9\u0647 ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "in_network_conversation": {
+                "_id": "604cb57ec803f58ee6ac6114",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 200
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T12:52:14.709Z",
+                "updated_at": "2021-03-13T12:52:14.709Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "85553",
+            "cost": 59950,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u062f\u0627\u06cc\u0645\u06cc - \u0628\u0633\u062a\u0647 \u0645\u06a9\u0627\u0644\u0645\u0647 \u0645\u0627\u0647\u0627\u0646\u0647 - 100 \u062f\u0642\u06cc\u0642\u0647 \u0627\u06cc \u062f\u0627\u062e\u0644 \u0634\u0628\u06a9\u0647 ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "in_network_conversation": {
+                "_id": "604cb4b0c803f58ee6ac6111",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 100
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T12:48:48.894Z",
+                "updated_at": "2021-03-13T12:48:48.894Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "85549",
+            "cost": 490500,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u0645\u06a9\u0627\u0644\u0645\u0647 \u0645\u0627\u0647\u0627\u0646\u0647 - 1000 \u062f\u0642\u06cc\u0642\u0647 \u0627\u06cc \u062f\u0627\u062e\u0644 \u0634\u0628\u06a9\u0647 ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "in_network_conversation": {
+                "_id": "604cb48cc803f58ee6ac6110",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 1000
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T12:48:12.040Z",
+                "updated_at": "2021-03-13T12:48:12.040Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "85543",
+            "cost": 16350,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u0645\u06a9\u0627\u0644\u0645\u0647 \u0645\u0627\u0647\u0627\u0646\u0647 - 20 \u062f\u0642\u06cc\u0642\u0647 \u0627\u06cc \u062f\u0627\u062e\u0644 \u0634\u0628\u06a9\u0647 ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "in_network_conversation": {
+                "_id": "604cb46c1800cc8ed5f5b3e4",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 20
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T12:47:40.905Z",
+                "updated_at": "2021-03-13T12:47:40.905Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "85545",
+            "cost": 30520,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u0645\u06a9\u0627\u0644\u0645\u0647 \u0645\u0627\u0647\u0627\u0646\u0647 - 40 \u062f\u0642\u06cc\u0642\u0647 \u0627\u06cc \u062f\u0627\u062e\u0644 \u0634\u0628\u06a9\u0647 ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "in_network_conversation": {
+                "_id": "604cb4491800cc8ed5f5b3e3",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 40
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T12:47:05.360Z",
+                "updated_at": "2021-03-13T12:47:05.360Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "85548",
+            "cost": 191840,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u0645\u06a9\u0627\u0644\u0645\u0647 \u0645\u0627\u0647\u0627\u0646\u0647 - 320 \u062f\u0642\u06cc\u0642\u0647 \u0627\u06cc \u062f\u0627\u062e\u0644 \u0634\u0628\u06a9\u0647 ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "in_network_conversation": {
+                "_id": "604cb421c803f58ee6ac610f",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 320
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T12:46:25.696Z",
+                "updated_at": "2021-03-13T12:46:25.696Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "85546",
+            "cost": 56680,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u0645\u06a9\u0627\u0644\u0645\u0647 \u0645\u0627\u0647\u0627\u0646\u0647 - 80 \u062f\u0642\u06cc\u0642\u0647 \u0627\u06cc \u062f\u0627\u062e\u0644 \u0634\u0628\u06a9\u0647 ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "in_network_conversation": {
+                "_id": "604cb3e1c803f58ee6ac610e",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 80
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T12:45:21.225Z",
+                "updated_at": "2021-03-13T12:45:21.225Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "85547",
+            "cost": 104640,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u0645\u06a9\u0627\u0644\u0645\u0647 \u0645\u0627\u0647\u0627\u0646\u0647 - 160 \u062f\u0642\u06cc\u0642\u0647 \u0627\u06cc \u062f\u0627\u062e\u0644 \u0634\u0628\u06a9\u0647 ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "in_network_conversation": {
+                "_id": "604cb541c803f58ee6ac6113",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 160
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T12:51:13.053Z",
+                "updated_at": "2021-03-13T12:51:13.053Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "85555",
+            "cost": 196200,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u062f\u0627\u06cc\u0645\u06cc - \u0628\u0633\u062a\u0647 \u0645\u06a9\u0627\u0644\u0645\u0647 \u0645\u0627\u0647\u0627\u0646\u0647 - 400 \u062f\u0642\u06cc\u0642\u0647 \u0627\u06cc \u062f\u0627\u062e\u0644 \u0634\u0628\u06a9\u0647 ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "in_network_conversation": {
+                "_id": "604cb34bc803f58ee6ac610d",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 400
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T12:42:51.963Z",
+                "updated_at": "2021-03-13T12:42:51.963Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "71072",
+            "cost": 16350,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u0647\u0641\u062a\u06af\u06cc 2 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a(2\u062a\u06277\u0635\u0628\u062d)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05274",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "71073",
+            "cost": 27250,
+            "description": "\u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 \u0647\u0641\u062a\u06af\u06cc 5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a(2\u062a\u06277\u0635\u0628\u062d)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "52801",
+            "cost": 566800,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 4 \u0645\u06af\u0627\u0628\u06cc\u062a \u0646\u0627\u0645\u062d\u062f\u0648\u062f \u0645\u0627\u0647\u06cc\u0627\u0646\u0647 \u0627\u0639\u062a\u0628\u0627\u0631\u06cc",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e7b16862ec3bf30f77209e5",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "INFINITE",
+                    "value": -1
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-25T08:29:58.772Z",
+                "updated_at": "2020-03-25T08:29:58.772Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52800",
+            "cost": 479600,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 2 \u0645\u06af\u0627\u0628\u06cc\u062a \u0646\u0627\u0645\u062d\u062f\u0648\u062f \u0645\u0627\u0647\u06cc\u0627\u0646\u0647 \u0627\u0639\u062a\u0628\u0627\u0631\u06cc",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e7b16862ec3bf30f77209e5",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "INFINITE",
+                    "value": -1
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-25T08:29:58.772Z",
+                "updated_at": "2020-03-25T08:29:58.772Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52802",
+            "cost": 757550,
+            "description": "\u0627\u06cc\u0646\u062a\u0631\u0646\u062a \u062b\u0627\u0628\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0628\u0633\u062a\u0647 8 \u0645\u06af\u0627\u0628\u06cc\u062a \u0646\u0627\u0645\u062d\u062f\u0648\u062f \u0645\u0627\u0647\u06cc\u0627\u0646\u0647 \u0627\u0639\u062a\u0628\u0627\u0631\u06cc",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e7b16862ec3bf30f77209e5",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "INFINITE",
+                    "value": -1
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-25T08:29:58.772Z",
+                "updated_at": "2020-03-25T08:29:58.772Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "73012",
+            "cost": 32700,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u062f\u0627\u06cc\u0645\u06cc - \u0645\u0627\u0647\u0627\u0646\u0647 - 5\u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a(6\u0635\u0628\u062d \u062a\u0627 12\u0638\u0647\u0631)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "63810",
+            "cost": 87200,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u062f\u0627\u06cc\u0645\u06cc - \u0645\u0627\u0647\u0627\u0646\u0647 - 500\u0645\u06af\u0627\u0628\u0627\u06cc\u062a +50\u0645\u06af\u0627\u0628\u0627\u06cc\u062a(6\u0635\u0628\u062d \u062a\u0627 12 \u0638\u0647\u0631)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05278",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 500
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "73003",
+            "cost": 21800,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u062f\u0627\u06cc\u0645\u06cc - \u0647\u0641\u062a\u06af\u06cc -  5\u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a (6\u0635\u0628\u062d \u062a\u0627 12\u0638\u0647\u0631)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "64416",
+            "cost": 207100,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u062f\u0627\u06cc\u0645\u06cc - \u0645\u0627\u0647\u0627\u0646\u0647 - 3 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "64417",
+            "cost": 232170,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u062f\u0627\u06cc\u0645\u06cc - \u0645\u0627\u0647\u0627\u0646\u0647 - 4 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d99a9d0a9b9f3235e38cac7",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 4
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:46:08.295Z",
+                "updated_at": "2019-10-06T08:46:08.295Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "64418",
+            "cost": 257240,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u062f\u0627\u06cc\u0645\u06cc - \u0645\u0627\u0647\u0627\u0646\u0647 - 5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "64419",
+            "cost": 307380,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u062f\u0627\u06cc\u0645\u06cc - \u0645\u0627\u0647\u0627\u0646\u0647 - 7 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05287",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 7
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "61418",
+            "cost": 257240,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0645\u0627\u0647\u0627\u0646\u0647 - 5 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61416",
+            "cost": 207100,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0645\u0627\u0647\u0627\u0646\u0647 - 3 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61417",
+            "cost": 232170,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0645\u0627\u0647\u0627\u0646\u0647 - 4 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d99a9d0a9b9f3235e38cac7",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 4
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:46:08.295Z",
+                "updated_at": "2019-10-06T08:46:08.295Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61419",
+            "cost": 307380,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0631\u0648\u0632\u0627\u0646\u0647 - 7 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05287",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 7
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "64423",
+            "cost": 675800,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u062f\u0627\u06cc\u0645\u06cc - 4\u0645\u0627\u0647\u0647 - 15 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05279",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 4
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527b",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 15
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "61423",
+            "cost": 675800,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - 4\u0645\u0627\u0647\u0647 - 15 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05279",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 4
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527b",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 15
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61321",
+            "cost": 10000,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0634\u06af\u0641\u062a \u0627\u0646\u06af\u06cc\u0632 - 40 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a 1 \u0631\u0648\u0632\u0647",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5e638ee38f6f1b14d15f67e1",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 40
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T12:09:07.710Z",
+                "updated_at": "2020-03-07T12:09:07.710Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61322",
+            "cost": 20000,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0634\u06af\u0641\u062a \u0627\u0646\u06af\u06cc\u0632 - 100 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a 3 \u0631\u0648\u0632\u0647",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0528a",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 100
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61323",
+            "cost": 50000,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0634\u06af\u0641\u062a \u0627\u0646\u06af\u06cc\u0632 - 270 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a 10 \u0631\u0648\u0632\u0647",
+            "duration": {
+                "_id": "5e638f138f6f1b14d15f67e3",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 10
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T12:09:55.721Z",
+                "updated_at": "2020-03-07T12:09:55.721Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "604c794a8dfe062367c561fc",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 270
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T08:35:22.306Z",
+                "updated_at": "2021-03-13T08:35:22.306Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61324",
+            "cost": 100000,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0634\u06af\u0641\u062a \u0627\u0646\u06af\u06cc\u0632 - 600 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a 15 \u0631\u0648\u0632\u0647",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5e638c648f6f1b14d15f67c6",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 600
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:58:28.142Z",
+                "updated_at": "2020-03-07T11:58:28.142Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "61325",
+            "cost": 200000,
+            "description": "\u0628\u0633\u062a\u0647 \u0633\u06cc\u0645 \u06a9\u0627\u0631\u062a \u0627\u0639\u062a\u0628\u0627\u0631\u06cc - \u0634\u06af\u0641\u062a \u0627\u0646\u06af\u06cc\u0632 - 5632 \u0645\u06af\u0627\u0628\u0627\u06cc\u062a 20 \u0631\u0648\u0632\u0647",
+            "duration": {
+                "_id": "604c7a81570f3123f119d914",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 20
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T08:40:33.585Z",
+                "updated_at": "2021-03-13T08:40:33.585Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "604c7a633f1167254c0acb0d",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 5632
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T08:40:03.154Z",
+                "updated_at": "2021-03-13T08:40:03.154Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "52833",
+            "cost": 2507000,
+            "description": "\u0645\u0648\u062f\u0645 TD-LTE - 1\u0633\u0627\u0644\u0647 - 100 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05295",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "YEAR",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e63891486ada014ec504caf",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 100
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:44:20.078Z",
+                "updated_at": "2020-03-07T11:44:20.078Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52834",
+            "cost": 4251000,
+            "description": "\u0645\u0648\u062f\u0645 TD-LTE - 1\u0633\u0627\u0644\u0647 - 200 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05295",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "YEAR",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e637e17e7dac415124cfdd4",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 200
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T10:57:27.958Z",
+                "updated_at": "2020-03-07T10:57:27.958Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52828",
+            "cost": 1199000,
+            "description": "\u0645\u0648\u062f\u0645 TD-LTE - 6\u0645\u0627\u0647\u0647 - 50 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05293",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 6
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05294",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 50
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52829",
+            "cost": 2071000,
+            "description": "\u0645\u0648\u062f\u0645 TD-LTE - 6\u0645\u0627\u0647\u0647 - 100 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05293",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 6
+                }
+            },
+            "traffic": {
+                "_id": "5e63891486ada014ec504caf",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 100
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:44:20.078Z",
+                "updated_at": "2020-03-07T11:44:20.078Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52830",
+            "cost": 2725000,
+            "description": "\u0645\u0648\u062f\u0645 TD-LTE - 6\u0645\u0627\u0647\u0647 - 150 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05293",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 6
+                }
+            },
+            "traffic": {
+                "_id": "6065e1fb23bde1023e803469",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 150
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-04-01T15:08:43.900Z",
+                "updated_at": "2021-04-01T15:08:43.900Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52824",
+            "cost": 708500,
+            "description": "\u0645\u0648\u062f\u0645 TD-LTE - \u0633\u0647 \u0645\u0627\u0647\u0647 - 30 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0528d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 3
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05296",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 30
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52825",
+            "cost": 1090000,
+            "description": "\u0645\u0648\u062f\u0645 TD-LTE - \u0633\u0647 \u0645\u0627\u0647\u0647 - 60 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0528d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 3
+                }
+            },
+            "traffic": {
+                "_id": "5e6373c6ce8aa1151ae4dae1",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 60
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T10:13:26.723Z",
+                "updated_at": "2020-03-07T10:13:26.723Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52826",
+            "cost": 1417000,
+            "description": "\u0645\u0648\u062f\u0645 TD-LTE - \u0633\u0647 \u0645\u0627\u0647\u0647 - 90 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a.",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0528d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 3
+                }
+            },
+            "traffic": {
+                "_id": "5e63bd1a0a18ee14c6cb6a57",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 90
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T15:26:18.428Z",
+                "updated_at": "2020-03-07T15:26:18.428Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52827",
+            "cost": 2071000,
+            "description": "\u0645\u0648\u062f\u0645 TD-LTE - \u0633\u0647 \u0645\u0627\u0647\u0647 - 150 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0528d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 3
+                }
+            },
+            "traffic": {
+                "_id": "6065e1fb23bde1023e803469",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 150
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-04-01T15:08:43.900Z",
+                "updated_at": "2021-04-01T15:08:43.900Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52817",
+            "cost": 354250,
+            "description": "\u0645\u0648\u062f\u0645 TD-LTE - \u0645\u0627\u0647\u0627\u0646\u0647 - 10 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527c",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 10
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52818",
+            "cost": 441450,
+            "description": "\u0645\u0648\u062f\u0645 TD-LTE - \u0645\u0627\u0647\u0627\u0646\u0647 - 15 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527b",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 15
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52820",
+            "cost": 577700,
+            "description": "\u0645\u0648\u062f\u0645 TD-LTE - \u0645\u0627\u0647\u0627\u0646\u0647 - 25 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527a",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 25
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52822",
+            "cost": 752100,
+            "description": "\u0645\u0648\u062f\u0645 TD-LTE - \u0645\u0627\u0647\u0627\u0646\u0647 - 45 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05297",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 45
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52823",
+            "cost": 926500,
+            "description": "\u0645\u0648\u062f\u0645 TD-LTE - \u0645\u0627\u0647\u0627\u0646\u0647 - 75 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e7320b3cbbb7d4dfdcc1071",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 75
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-19T07:35:15.215Z",
+                "updated_at": "2020-03-19T07:35:15.215Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        },
+        {
+            "type": "52821",
+            "cost": 670350,
+            "description": "\u0645\u0648\u062f\u0645 TD-LTE - \u0645\u0627\u0647\u0627\u0646\u0647 - 35 \u06af\u06cc\u06af\u0627\u0628\u0627\u06cc\u062a",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05292",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 35
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 3
+        }
+    ]
+}

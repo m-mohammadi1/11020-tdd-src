@@ -8,15 +8,16 @@ use App\Services\Http\Internet\Interfaces\KaraneBuyInternetInterface;
 use App\Services\Http\Internet\Types\DurationType;
 use App\Services\Http\Internet\Types\InternetPackage;
 use App\Services\Http\Internet\Types\InternetPackageCollection;
+use App\Services\Http\Internet\Types\Operator;
 use App\Services\Http\Internet\Types\TrafficType;
 
 class FakeKaraneInternet implements KaraneBuyInternetInterface
 {
 
-    public function getPackages(): InternetPackageCollection
+    public function getPackages(Operator $operator): InternetPackageCollection
     {
         try {
-            $jsonFromFile = file_get_contents(__DIR__.'/FakeResources/packages.json');
+            $jsonFromFile = file_get_contents(__DIR__."/FakeResources/{$operator->value}.json");
 
             $packages = json_decode($jsonFromFile, true)['data'];
 
@@ -50,7 +51,8 @@ class FakeKaraneInternet implements KaraneBuyInternetInterface
                     $package['duration']['category']['value'],
                     $durationType,
                     $package['traffic']['category']['value'],
-                    $trafficType
+                    $trafficType,
+                    $operator
                 );
 
                 $items[] = $item;

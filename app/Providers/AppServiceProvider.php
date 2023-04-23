@@ -2,9 +2,9 @@
 
 namespace App\Providers;
 
-use App\Services\Http\Internet\Interfaces\KaraneInternetInterface;
-use App\Services\Http\Internet\Interfaces\KareneInternetInterface;
-use App\Services\Http\Internet\Functionality\FakeKaraneBuyService;
+use App\Services\Http\Internet\Interfaces\KaraneSyncInternetInterface;
+use App\Services\Http\Internet\Interfaces\KaraneBuyInternetInterface;
+use App\Services\Http\Internet\Functionality\FakeKaraneBuyServiceSync;
 use App\Services\Http\Internet\Functionality\FakeKaraneInternet;
 use App\Services\InternetPackage\Functionality\BuyInternet;
 use App\Services\InternetPackage\Functionality\GetInternet;
@@ -24,8 +24,8 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         // http layer
-        $this->app->bind(KaraneInternetInterface::class, FakeKaraneBuyService::class);
-        $this->app->bind(KareneInternetInterface::class, FakeKaraneInternet::class);
+        $this->app->bind(KaraneSyncInternetInterface::class, FakeKaraneBuyServiceSync::class);
+        $this->app->bind(KaraneBuyInternetInterface::class, FakeKaraneInternet::class);
 
 
         // core domain

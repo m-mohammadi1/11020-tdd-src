@@ -3,14 +3,14 @@
 namespace App\Services\InternetPackage\Functionality;
 
 use App\Models\InternetPackage;
-use App\Services\Http\Internet\Interfaces\KareneInternetInterface;
+use App\Services\Http\Internet\Interfaces\KaraneBuyInternetInterface;
 use App\Services\InternetPackage\Interfaces\GetInternetInterface;
 
 
 class GetInternet implements GetInternetInterface
 {
     public function __construct(
-        private KareneInternetInterface $internetPackageService
+        private KaraneBuyInternetInterface $internetPackageService
     )
     {
     }

@@ -49,9 +49,7 @@ class BuyInternet implements BuyInternetInterface
                 'operator' => $operator,
             ]);
 
-
         $this->updateUserWalletAmount($user, $package);
-
 
         return $order;
     }

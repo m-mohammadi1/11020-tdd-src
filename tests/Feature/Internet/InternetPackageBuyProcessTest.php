@@ -21,12 +21,16 @@ class InternetPackageBuyProcessTest extends TestCase
 
     private Operator $operator;
 
+    private BuyInternetInterface $buyInternet;
+
     protected function setUp(): void
     {
         parent::setUp();
 
         resolve(GetInternetInterface::class)
             ->syncInternetPackagesInSystem();
+
+        $this->buyInternet = resolve(BuyInternetInterface::class);
 
         $this->operator = Operator::MCI;
     }
@@ -40,7 +44,7 @@ class InternetPackageBuyProcessTest extends TestCase
                 'wallet_amount' => $packagge->price + 1
             ]);
 
-        $result = resolve(BuyInternetInterface::class)
+        $result = $this->buyInternet
             ->buyPackageForUser($user, $this->operator, $packagge);
 
         $this->assertDatabaseHas('orders', [
@@ -63,7 +67,7 @@ class InternetPackageBuyProcessTest extends TestCase
 
         $this->expectException(UserWalletAmountNotEnoughException::class);
 
-        resolve(BuyInternetInterface::class)
+        $this->buyInternet
             ->buyPackageForUser($user, $this->operator, $packagge);
     }
 
@@ -78,7 +82,7 @@ class InternetPackageBuyProcessTest extends TestCase
 
         $packagge = InternetPackage::query()->where('operator', $this->operator)->first();
 
-        $userWalletAmount = 12_000 + $packagge->price;
+        $userWalletAmount = $packagge->price + 12_000;
         $user = User::factory()
             ->createOne([
                 'wallet_amount' => $userWalletAmount
@@ -86,8 +90,8 @@ class InternetPackageBuyProcessTest extends TestCase
 
         resolve(BuyInternetInterface::class)
             ->buyPackageForUser($user, $this->operator, $packagge);
-
         $user = $user->fresh();
+
         $this->assertEquals(12_000, $user->wallet_amount);
     }
 
@@ -100,7 +104,7 @@ class InternetPackageBuyProcessTest extends TestCase
 
         $this->expectException(InvalidOperatorProvidedException::class);
 
-        resolve(BuyInternetInterface::class)
+        $this->buyInternet
             ->buyPackageForUser($user, Operator::MCI, $packagge);
     }
 }

@@ -4,6 +4,7 @@ namespace Tests\Feature\Internet;
 
 use App\Models\InternetPackage;
 use App\Models\User;
+use App\Services\Http\Internet\Types\Operator;
 use App\Services\InternetPackage\Interfaces\BuyInternetInterface;
 use App\Services\InternetPackage\Interfaces\GetInternetInterface;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -26,7 +27,7 @@ class InternetPackageDiscountAppliedTest extends TestCase
     {
         $discountPercentage = config('discounts.internet_package');
 
-        $packagge = InternetPackage::query()->first();
+        $packagge = InternetPackage::query()->where('operator', Operator::MCI)->first();
 
         $userWalletAmount = 12_000 + $packagge->price;
         $user = User::factory()
@@ -35,7 +36,7 @@ class InternetPackageDiscountAppliedTest extends TestCase
             ]);
 
         resolve(BuyInternetInterface::class)
-            ->buyPackageForUser($user, $packagge);
+            ->buyPackageForUser($user, Operator::MCI, $packagge);
 
         $discountedAmount = $packagge->price * ($discountPercentage / 100);
 

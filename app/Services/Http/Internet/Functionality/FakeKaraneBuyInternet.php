@@ -4,10 +4,11 @@ namespace App\Services\Http\Internet\Functionality;
 
 use App\Services\Http\Internet\Interfaces\KaraneSyncInternetInterface;
 use App\Services\Http\Internet\Types\BuyPackageResponse;
+use App\Services\Http\Internet\Types\Operator;
 
 class FakeKaraneBuyInternet implements KaraneSyncInternetInterface
 {
-    public function buyPackage(string $phoneNumber, string $code): BuyPackageResponse
+    public function buyPackage(string $phoneNumber, Operator $operator, string $code): BuyPackageResponse
     {
         // request to get an orderId
         $orderId = random_int(99_999_999, 999_999_999);

@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Enums\OrderStatus;
+use App\Services\Http\Internet\Types\Operator;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -13,6 +14,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property int $package_id
  * @property string $api_order_id
  * @property OrderStatus $status
+ * @property Operator $operator
  * @property array|null $extra_data
  *
  */
@@ -24,6 +26,7 @@ class Order extends Model
 
     protected $casts = [
         'status' => OrderStatus::class,
-        'extra_data' => 'array'
+        'extra_data' => 'array',
+        'operator' => Operator::class,
     ];
 }

@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\Feature;
+namespace Tests\Feature\Internet;
 
+use App\Enums\Operator;
 use App\Models\InternetPackage;
 use App\Models\User;
-use App\Services\InternetPackage\Interfaces\BuyInternetPackageServiceInterface;
-use App\Services\InternetPackage\Interfaces\InternetPackageServiceInterface;
+use App\Services\InternetPackage\Interfaces\BuyInternetInterface;
+use App\Services\InternetPackage\Interfaces\GetInternetInterface;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
 class InternetPackageDiscountAppliedTest extends TestCase
@@ -18,7 +18,7 @@ class InternetPackageDiscountAppliedTest extends TestCase
     {
         parent::setUp();
 
-        resolve(InternetPackageServiceInterface::class)
+        resolve(GetInternetInterface::class)
             ->syncInternetPackagesInSystem();
     }
 
@@ -27,7 +27,7 @@ class InternetPackageDiscountAppliedTest extends TestCase
     {
         $discountPercentage = config('discounts.internet_package');
 
-        $packagge = InternetPackage::query()->first();
+        $packagge = InternetPackage::query()->where('operator', Operator::MCI)->first();
 
         $userWalletAmount = 12_000 + $packagge->price;
         $user = User::factory()
@@ -35,8 +35,8 @@ class InternetPackageDiscountAppliedTest extends TestCase
                 'wallet_amount' => $userWalletAmount
             ]);
 
-        resolve(BuyInternetPackageServiceInterface::class)
-            ->buyPackageForUser($user, $packagge);
+        resolve(BuyInternetInterface::class)
+            ->buyPackageForUser($user, Operator::MCI, $packagge);
 
         $discountedAmount = $packagge->price * ($discountPercentage / 100);
 

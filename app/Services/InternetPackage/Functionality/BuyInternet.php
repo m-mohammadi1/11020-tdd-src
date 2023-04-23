@@ -2,34 +2,41 @@
 
 namespace App\Services\InternetPackage\Functionality;
 
+use App\Enums\Operator;
 use App\Enums\OrderStatus;
 use App\Models\InternetPackage;
 use App\Models\Order;
 use App\Models\User;
-use App\Services\Discount\DiscountServiceInterface;
-use App\Services\Http\InternetPackage\Interfaces\KaraneInternetPackageBuyServiceInterface;
+use App\Services\Http\Internet\Interfaces\KaraneSyncInternetInterface;
+use App\Services\InternetPackage\Exceptions\InvalidOperatorProvidedException;
 use App\Services\InternetPackage\Exceptions\UserWalletAmountNotEnoughException;
-use App\Services\InternetPackage\Interfaces\BuyInternetPackageServiceInterface;
+use App\Services\InternetPackage\Interfaces\BuyInternetInterface;
+use App\Services\InternetPackage\SubServices\Discount\DiscountServiceInterface;
 use Illuminate\Support\Facades\DB;
 
-class BuyInternetPackageService implements BuyInternetPackageServiceInterface
+class BuyInternet implements BuyInternetInterface
 {
 
     public function __construct(
-        private KaraneInternetPackageBuyServiceInterface $internetPackageBuyService,
-        private DiscountServiceInterface $discountService,
+        private KaraneSyncInternetInterface $internetPackageBuyService,
+        private DiscountServiceInterface    $discountService,
     )
     {
     }
 
-    public function buyPackageForUser(User $user, InternetPackage $package): Order
+    public function buyPackageForUser(User $user, Operator $operator, InternetPackage $package): Order
     {
         if ($user->wallet_amount < $package->price) {
             UserWalletAmountNotEnoughException::throw();
         }
 
+        if ($package->operator !== $operator) {
+            InvalidOperatorProvidedException::throw($package->operator, $operator);
+        }
+
         $response = $this->internetPackageBuyService->buyPackage(
             $user->getPhoneNumber(),
+            $operator,
             $package->code
         );
 
@@ -39,11 +46,10 @@ class BuyInternetPackageService implements BuyInternetPackageServiceInterface
                 'package_id' => $package->id,
                 'api_order_id' => $response->orderId,
                 'status' => $response->wasSuccessful ? OrderStatus::SUCCESS : OrderStatus::FAILURE,
+                'operator' => $operator,
             ]);
 
-
         $this->updateUserWalletAmount($user, $package);
-
 
         return $order;
     }

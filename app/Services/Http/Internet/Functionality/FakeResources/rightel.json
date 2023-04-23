@@ -1,0 +1,4117 @@
+{
+    "data": [
+        {
+            "type": "13850",
+            "cost": 207100,
+            "description": "سیم کارت دیتا - حجم افزایشی بسته اینترنت 5 گیگابایت ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "13848",
+            "cost": 76300,
+            "description": "سیم کارت دیتا - حجم افزایشی بسته اینترنت 1 گیگابایت ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05272",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": null
+        },
+        {
+            "type": "13849",
+            "cost": 109000,
+            "description": "سیم کارت دیتا - حجم افزایشی بسته اینترنت 2 گیگابایت",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05274",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": null
+        },
+        {
+            "type": "12709",
+            "cost": 76300,
+            "description": "دائمی - حجم افزایشی بسته اینترنت 1 گیگابایت ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05272",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "12710",
+            "cost": 109000,
+            "description": "دائمی - حجم افزایشی بسته اینترنت 2 گیگابایت ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05274",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "12711",
+            "cost": 207100,
+            "description": "دائمی - حجم افزایشی بسته اینترنت 5 گیگابایت ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "11755",
+            "cost": 76300,
+            "description": "اعتباری - حجم افزایشی بسته اینترنت 1 گیگابایت ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05272",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "11756",
+            "cost": 109000,
+            "description": "اعتباری - حجم افزایشی بسته اینترنت 2 گیگابایت ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05274",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "11757",
+            "cost": 207100,
+            "description": "اعتباری - حجم افزایشی بسته اینترنت 5 گیگابایت ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "98132136",
+            "cost": 979910,
+            "description": "سیم کارت دیتا -  180روزه (35 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05293",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 6
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05292",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 35
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "98132141",
+            "cost": 1733100,
+            "description": "سیم کارت دیتا - 365روزه (75 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05295",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "YEAR",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e7320b3cbbb7d4dfdcc1071",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 75
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-19T07:35:15.215Z",
+                "updated_at": "2020-03-19T07:35:15.215Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "98132156",
+            "cost": 288850,
+            "description": "سیم کارت دیتا -    30روزه (8 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05286",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 8
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "98132120",
+            "cost": 119900,
+            "description": "سیم کارت دیتا -    15روزه (1.5 گیگابایت)",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05276",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1.5
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "98132119",
+            "cost": 92650,
+            "description": "سیم کارت دیتا -  15روزه (700 مگابایت)",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5e638200fd009714a2c0a1b0",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 700
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:14:08.464Z",
+                "updated_at": "2020-03-07T11:14:08.464Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "98132112",
+            "cost": 44690,
+            "description": "سیم کارت دیتا -    7روزه (200 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0528c",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 200
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "98132103",
+            "cost": 51230,
+            "description": "سیم کارت دیتا -    1روزه (500 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05278",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 500
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "98132100",
+            "cost": 21800,
+            "description": "سیم کارت دیتا -    1روزه  (100 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0528a",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 100
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "98132110",
+            "cost": 103550,
+            "description": "سیم کارت دیتا -    1روزه (3 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "98132111",
+            "cost": 129710,
+            "description": "سیم کارت دیتا - 3روزه (3 گیگابایت)",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "98132107",
+            "cost": 53410,
+            "description": "سیم کارت دیتا -    3روزه (300 مگابایت)",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d99aa0aa9b9f3235e38cacb",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 300
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:47:06.199Z",
+                "updated_at": "2019-10-06T08:47:06.199Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "98132105",
+            "cost": 76300,
+            "description": "سیم کارت دیتا -    1روزه (1.5 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05276",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1.5
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "98132101",
+            "cost": 32700,
+            "description": "سیم کارت دیتا -  1روزه  (200 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0528c",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 200
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "98122165",
+            "cost": 979910,
+            "description": "دائمی -    180روزه (35 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05293",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 6
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05292",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 35
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "98122172",
+            "cost": 1733100,
+            "description": "دائمی - 365روزه (75 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05295",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "YEAR",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e7320b3cbbb7d4dfdcc1071",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 75
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-19T07:35:15.215Z",
+                "updated_at": "2020-03-19T07:35:15.215Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "98132102",
+            "cost": 40330,
+            "description": "سیم کارت دیتا -    1روزه (300 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d99aa0aa9b9f3235e38cacb",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 300
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:47:06.199Z",
+                "updated_at": "2019-10-06T08:47:06.199Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "98122196",
+            "cost": 288850,
+            "description": "دائمی -    30روزه (8 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05286",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 8
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "98122146",
+            "cost": 92650,
+            "description": "دائمی - 15روزه (700 مگابایت)",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5e638200fd009714a2c0a1b0",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 700
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:14:08.464Z",
+                "updated_at": "2020-03-07T11:14:08.464Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "98122147",
+            "cost": 119900,
+            "description": "دائمی -    15روزه (1.5 گیگابایت)",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05276",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1.5
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "98122139",
+            "cost": 44690,
+            "description": "دائمی -    7روزه (200 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0528c",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 200
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "98122138",
+            "cost": 129710,
+            "description": "دائمی -  3روزه (3 گیگابایت)",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "98122132",
+            "cost": 76300,
+            "description": "دائمی -    1روزه (1.5 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05276",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1.5
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "98122134",
+            "cost": 53410,
+            "description": "دائمی -  3روزه (300 مگابایت)",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d99aa0aa9b9f3235e38cacb",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 300
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:47:06.199Z",
+                "updated_at": "2019-10-06T08:47:06.199Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "98122128",
+            "cost": 32700,
+            "description": "دائمی -    1روزه  (200 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0528c",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 200
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "98122127",
+            "cost": 21800,
+            "description": "دائمی -    1روزه  (100 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0528a",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 100
+                }
+            },
+            "isSpecial": true,
+            "chargeType": 1
+        },
+        {
+            "type": "98122137",
+            "cost": 103550,
+            "description": "دائمی -    1روزه (3 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "98122130",
+            "cost": 51230,
+            "description": "دائمی - 1روزه (500 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05278",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 500
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "98122129",
+            "cost": 40330,
+            "description": "دائمی -    1روزه (300 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d99aa0aa9b9f3235e38cacb",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 300
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:47:06.199Z",
+                "updated_at": "2019-10-06T08:47:06.199Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "98112212",
+            "cost": 1733100,
+            "description": "اعتباری - 365روزه (75 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05295",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "YEAR",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e7320b3cbbb7d4dfdcc1071",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 75
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-19T07:35:15.215Z",
+                "updated_at": "2020-03-19T07:35:15.215Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "98112205",
+            "cost": 979910,
+            "description": "اعتباری -   180روزه (35 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05293",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 6
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05292",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 35
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "98112187",
+            "cost": 119900,
+            "description": "اعتباری -  15روزه (1.5 گیگابایت)",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05276",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1.5
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "98112186",
+            "cost": 92650,
+            "description": "اعتباری -    15روزه (700 مگابایت)",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5e638200fd009714a2c0a1b0",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 700
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:14:08.464Z",
+                "updated_at": "2020-03-07T11:14:08.464Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "98112179",
+            "cost": 44690,
+            "description": "اعتباری -   7روزه (200 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0528c",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 200
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "98112177",
+            "cost": 103550,
+            "description": "اعتباری -  1روزه (3 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "98112167",
+            "cost": 21800,
+            "description": "اعتباری -    1روزه  (100 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0528a",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 100
+                }
+            },
+            "isSpecial": true,
+            "chargeType": 0
+        },
+        {
+            "type": "98112168",
+            "cost": 32700,
+            "description": "اعتباری -    1روزه  (200 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0528c",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 200
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "98112174",
+            "cost": 53410,
+            "description": "اعتباری -    3روزه (300 مگابایت)",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d99aa0aa9b9f3235e38cacb",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 300
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:47:06.199Z",
+                "updated_at": "2019-10-06T08:47:06.199Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "98112169",
+            "cost": 40330,
+            "description": "اعتباری -    1روزه (300 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d99aa0aa9b9f3235e38cacb",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 300
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:47:06.199Z",
+                "updated_at": "2019-10-06T08:47:06.199Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "98112170",
+            "cost": 51230,
+            "description": "اعتباری -    1روزه (500 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05278",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 500
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "98112172",
+            "cost": 76300,
+            "description": "اعتباری - 1روزه (1.5 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05276",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1.5
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "98112178",
+            "cost": 129710,
+            "description": "اعتباری -  3روزه (3 گیگابایت)",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "98112282",
+            "cost": 288850,
+            "description": "اعتباری - ماهانه - 30روزه (8 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05286",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 8
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "99122126",
+            "cost": 741200,
+            "description": "دایمی - 2 ماهه -    60روزه (20 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0527d",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05299",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 20
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99122127",
+            "cost": 915600,
+            "description": "دایمی - 2 ماهه -  60روزه (28 گیگابایت + 14 گیگابایت 2 تا 7 صبح)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0527d",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "60472ccc816600229bb1b754",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 28
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-09T08:07:40.381Z",
+                "updated_at": "2021-03-09T08:07:40.381Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99112158",
+            "cost": 457800,
+            "description": "اعتباری - 2 ماهه -    60روزه (12 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0527d",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05281",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 12
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "99112159",
+            "cost": 741200,
+            "description": "اعتباری - 2 ماهه -    60روزه (20 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0527d",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05299",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 20
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "99112160",
+            "cost": 915600,
+            "description": "اعتباری - 2 ماهه -   60 روزه (28 گیگابایت + 14 گیگابایت 2 تا 7 صبح)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0527d",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "60472ccc816600229bb1b754",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 28
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-09T08:07:40.381Z",
+                "updated_at": "2021-03-09T08:07:40.381Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "99122125",
+            "cost": 457800,
+            "description": "دایمی - 2 ماهه -    60روزه (12 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0527d",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05281",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 12
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99122133",
+            "cost": 1362500,
+            "description": "دایمی - 1 ساله - 365روزه (50 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05295",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "YEAR",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05294",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 50
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99122131",
+            "cost": 1417000,
+            "description": "دایمی - 6 ماهه -    180روزه (55 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05293",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 6
+                }
+            },
+            "traffic": {
+                "_id": "5e732127aed2464d8dc8a05f",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 55
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-19T07:37:11.283Z",
+                "updated_at": "2020-03-19T07:37:11.283Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99132077",
+            "cost": 817500,
+            "description": "دیتا - 3 ماهه - 90روزه (25 گیگابایت به همراه 10 گیگابایت هدیه ساعات 2 تا 7 صبح)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0528d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 3
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527a",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 25
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "99132079",
+            "cost": 1417000,
+            "description": "دیتا - 6 ماهه - 180روزه (55 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05293",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 6
+                }
+            },
+            "traffic": {
+                "_id": "5e732127aed2464d8dc8a05f",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 55
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-19T07:37:11.283Z",
+                "updated_at": "2020-03-19T07:37:11.283Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "99132081",
+            "cost": 1362500,
+            "description": "دیتا - 1 ساله - 365روزه (50 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05295",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "YEAR",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05294",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 50
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "99132076",
+            "cost": 599500,
+            "description": "دیتا - 3 ماهه - 90روزه (15 گیگابایت به همراه 5 گیگابایت هدیه ساعات2 تا 7 صبح) ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0528d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 3
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527b",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 15
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "99132078",
+            "cost": 1035500,
+            "description": "دیتا - 3 ماهه - 90روزه (35 گیگابایت به همراه 15 گیگابایت هدیه ساعات 2 تا 7 صبح)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0528d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 3
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05292",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 35
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "99112145",
+            "cost": 89380,
+            "description": "اعتباری - روزانه -    3روزه (1 گیگابایت)",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05272",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "99112143",
+            "cost": 35970,
+            "description": "اعتباری - روزانه -    3روزه (150 مگابایت)",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529b",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 150
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "99112141",
+            "cost": 67580,
+            "description": "اعتباری - روزانه -    1روزه (1 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05272",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "99112140",
+            "cost": 15260,
+            "description": "اعتباری - روزانه -    1روزه (50 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0528b",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 50
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "99132069",
+            "cost": 173310,
+            "description": "دیتا - هفتگی - 15 روزه 3 گیگابایت",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "99132070",
+            "cost": 195110,
+            "description": "دیتا - هفتگی - 15 روزه 5 گیگابایت",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "99132063",
+            "cost": 75210,
+            "description": "دیتا - هفتگی - 7روزه (500 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05278",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 500
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "99132065",
+            "cost": 129710,
+            "description": "دیتا - هفتگی - 7روزه ( 2 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05274",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "99132066",
+            "cost": 151510,
+            "description": "دیتا - هفتگی - 7روزه ( 3 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "99132067",
+            "cost": 206010,
+            "description": "دیتا - هفتگی - 7روزه ( 6 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05289",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 6
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "99132073",
+            "cost": 457800,
+            "description": "دیتا - 2 ماهه - 60روزه (12 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0527d",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05281",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 12
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "99132074",
+            "cost": 741200,
+            "description": "دیتا - 2 ماهه - 60روزه (20 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0527d",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05299",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 20
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "99132075",
+            "cost": 915600,
+            "description": "دیتا - 2 ماهه - 60روزه (28 گیگابایت + 14 گیگابایت 2 تا 7 صبح)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0527d",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "60472ccc816600229bb1b754",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 28
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-09T08:07:40.381Z",
+                "updated_at": "2021-03-09T08:07:40.381Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "99132062",
+            "cost": 57770,
+            "description": "دیتا - هفتگی - 7 روزه (300 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d99aa0aa9b9f3235e38cacb",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 300
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:47:06.199Z",
+                "updated_at": "2019-10-06T08:47:06.199Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "99132061",
+            "cost": 89380,
+            "description": "دیتا - روزانه - 3روزه (1 گیگابایت)",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05272",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "99132059",
+            "cost": 35970,
+            "description": "دیتا - روزانه -    3روزه (150 مگابایت)",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529b",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 150
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "99132057",
+            "cost": 67580,
+            "description": "دیتا - روزانه - 1روزه ( 1 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05272",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "99122129",
+            "cost": 817500,
+            "description": "دایمی - 3 ماهه -    90روزه (25 گیگابایت به همراه 10 گیگابایت هدیه ساعات 2 تا 7 صبح)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0528d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 3
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05292",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 35
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99122130",
+            "cost": 1035500,
+            "description": "دایمی - 3 ماهه -    90روزه (35 گیگابایت به همراه 15 گیگابایت هدیه ساعات 2 تا 7 صبح)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0528d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 3
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05292",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 35
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99132056",
+            "cost": 15260,
+            "description": "دیتا - روزانه - 1روزه (50 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0528b",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 50
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "99122128",
+            "cost": 599500,
+            "description": "دایمی - 3 ماهه -    90روزه (15 گیگابایت به همراه 5 گیگابایت هدیه ساعات2 تا 7 صبح)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0528d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 3
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527b",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 15
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99122120",
+            "cost": 173310,
+            "description": "دایمی - هفتگی - 15 روزه 3 گیگ",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99122121",
+            "cost": 195110,
+            "description": "دایمی - هفتگی - 15 روزه (5 گیگابایت)",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99122117",
+            "cost": 151510,
+            "description": "دایمی - هفتگی -    7روزه (3 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99122117",
+            "cost": 151510,
+            "description": "دایمی - هفتگی -    7روزه (3 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99122118",
+            "cost": 206010,
+            "description": "دایمی - هفتگی -    7روزه (6 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05289",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 6
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99122113",
+            "cost": 57770,
+            "description": "دایمی - هفتگی - 7 روزه (300 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d99aa0aa9b9f3235e38cacb",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 300
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:47:06.199Z",
+                "updated_at": "2019-10-06T08:47:06.199Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99122114",
+            "cost": 75210,
+            "description": "دایمی - هفتگی -    7روزه (500 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05278",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 500
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99122116",
+            "cost": 129710,
+            "description": "دایمی - هفتگی -    7روزه (2 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05274",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99122110",
+            "cost": 35970,
+            "description": "دایمی - 3 روزه - 150 مگابایت",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529b",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 150
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99122112",
+            "cost": 89380,
+            "description": "دایمی - 3 روزه -    3روزه (1 گیگابایت)",
+            "duration": {
+                "_id": "5e6381f693ba9f14a1fedc15",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 3
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:13:58.666Z",
+                "updated_at": "2020-03-07T11:13:58.666Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05272",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99122108",
+            "cost": 67580,
+            "description": "دایمی - روزانه -   1روزه (1 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05272",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99122107",
+            "cost": 15260,
+            "description": "دایمی - روزانه -  1روزه (50 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05273",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0528b",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 50
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "99112164",
+            "cost": 1417000,
+            "description": "اعتباری - 6 ماهه -    180روزه (55 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05293",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 6
+                }
+            },
+            "traffic": {
+                "_id": "5e732127aed2464d8dc8a05f",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 55
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-19T07:37:11.283Z",
+                "updated_at": "2020-03-19T07:37:11.283Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "99112166",
+            "cost": 1362500,
+            "description": "اعتباری - 1 ساله - 365روزه (50 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05295",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "YEAR",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05294",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 50
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "99112161",
+            "cost": 599500,
+            "description": "اعتباری - 3 ماهه -   90روزه (15 گیگابایت به همراه 5 گیگابایت هدیه ساعات2 تا 7 صبح) ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0528d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 3
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527b",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 15
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "99112162",
+            "cost": 817500,
+            "description": "اعتباری - 3 ماهه -    90روزه (25 گیگابایت به همراه 10 گیگابایت هدیه ساعات 2 تا 7 صبح)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0528d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 3
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527a",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 25
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "99112163",
+            "cost": 1035500,
+            "description": "اعتباری - 3 ماهه -    90روزه (35 گیگابایت به همراه 15 گیگابایت هدیه ساعات 2 تا 7 صبح)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b0528d",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 3
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05292",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 35
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "99112153",
+            "cost": 173310,
+            "description": "اعتباری - هفتگی -  15 روزه (3 گیگابایت)",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "99112146",
+            "cost": 57770,
+            "description": "اعتباری - هفتگی -    7روزه (300 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d99aa0aa9b9f3235e38cacb",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 300
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:47:06.199Z",
+                "updated_at": "2019-10-06T08:47:06.199Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "99112149",
+            "cost": 129710,
+            "description": "اعتباری - هفتگی -    7روزه (2 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05274",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "99112150",
+            "cost": 151510,
+            "description": "اعتباری - هفتگی -    7روزه (3 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "99112151",
+            "cost": 206010,
+            "description": "اعتباری - هفتگی -    7روزه (6 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05289",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 6
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "99112147",
+            "cost": 75210,
+            "description": "اعتباری - هفتگی -    7روزه (500 مگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05278",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "MB",
+                    "value": 500
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "99112154",
+            "cost": 195110,
+            "description": "اعتباری - هفتگی -  15 روزه (5 گیگابایت)",
+            "duration": {
+                "_id": "5e6383631fa14c1544ba357f",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "DAY",
+                    "value": 15
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:20:03.231Z",
+                "updated_at": "2020-03-07T11:20:03.231Z",
+                "v": 0
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "97112122",
+            "cost": 400000,
+            "description": "اعتباری - بسته های خانواده دکا - دکا بینهایت",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "in_network_conversation": {
+                "_id": "604cbad71800cc8ed5f5b3e6",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 10000
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T13:15:03.185Z",
+                "updated_at": "2021-03-13T13:15:03.185Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "97122090",
+            "cost": 120000,
+            "description": "دایمی - بسته های خانواده دکا - دکا",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "in_network_conversation": {
+                "_id": "604cbad71800cc8ed5f5b3e6",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 10000
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T13:15:03.185Z",
+                "updated_at": "2021-03-13T13:15:03.185Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "97122091",
+            "cost": 150000,
+            "description": "دایمی - بسته های خانواده دکا - دکا گپ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "in_network_conversation": {
+                "_id": "604cbad71800cc8ed5f5b3e6",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 10000
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T13:15:03.185Z",
+                "updated_at": "2021-03-13T13:15:03.185Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "97122092",
+            "cost": 300000,
+            "description": "دایمی - بسته های خانواده دکا - دکا تک",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "in_network_conversation": {
+                "_id": "604cbad71800cc8ed5f5b3e6",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 10000
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T13:15:03.185Z",
+                "updated_at": "2021-03-13T13:15:03.185Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "97122093",
+            "cost": 400000,
+            "description": "دایمی - بسته های خانواده دکا - دکا بینهایت",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "in_network_conversation": {
+                "_id": "604cbad71800cc8ed5f5b3e6",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 10000
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T13:15:03.185Z",
+                "updated_at": "2021-03-13T13:15:03.185Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "97112119",
+            "cost": 120000,
+            "description": "اعتباری - بسته های خانواده دکا - دکا",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "in_network_conversation": {
+                "_id": "604cbad71800cc8ed5f5b3e6",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 10000
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T13:15:03.185Z",
+                "updated_at": "2021-03-13T13:15:03.185Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "97112120",
+            "cost": 150000,
+            "description": "اعتباری - بسته های خانواده دکا - دکا گپ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "in_network_conversation": {
+                "_id": "604cbad71800cc8ed5f5b3e6",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 10000
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T13:15:03.185Z",
+                "updated_at": "2021-03-13T13:15:03.185Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "97112121",
+            "cost": 300000,
+            "description": "اعتباری - بسته های خانواده دکا - دکا تک",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "in_network_conversation": {
+                "_id": "604cbad71800cc8ed5f5b3e6",
+                "category": {
+                    "type": "IN_NETWORK_CONVERSATION",
+                    "sub_type": "MINUTE",
+                    "value": 10000
+                },
+                "status": "ACTIVE",
+                "created_at": "2021-03-13T13:15:03.185Z",
+                "updated_at": "2021-03-13T13:15:03.185Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "400122018",
+            "cost": 1907500,
+            "description": "دایمی - 6 ماهه - 180روزه (75 گیگابایت به همراه 25گیگابایت هدیه ساعات 2 تا 7 صبح)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05293",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 6
+                }
+            },
+            "traffic": {
+                "_id": "5e7320b3cbbb7d4dfdcc1071",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 75
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-19T07:35:15.215Z",
+                "updated_at": "2020-03-19T07:35:15.215Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "400122019",
+            "cost": 2398000,
+            "description": "دایمی - 1 ساله -    365روزه (100 گیگابایت به همراه 25 گیگابایت هدیه ساعات 2 تا 7 صبح) ",
+            "traffic": {
+                "_id": "5e63891486ada014ec504caf",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 100
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:44:20.078Z",
+                "updated_at": "2020-03-07T11:44:20.078Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "400132014",
+            "cost": 1907500,
+            "description": "دیتا - 6 ماهه - 180روزه (75 گیگابایت به همراه 25گیگابایت هدیه ساعات 2 تا 7 صبح)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05293",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 6
+                }
+            },
+            "traffic": {
+                "_id": "5e7320b3cbbb7d4dfdcc1071",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 75
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-19T07:35:15.215Z",
+                "updated_at": "2020-03-19T07:35:15.215Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "400132015",
+            "cost": 2398000,
+            "description": "دیتا - 1 ساله - 365روزه (100 گیگابایت به همراه 25گیگابایت هدیه ساعات 2 تا 7 صبح) ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05295",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "YEAR",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e63891486ada014ec504caf",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 100
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:44:20.078Z",
+                "updated_at": "2020-03-07T11:44:20.078Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "400132001",
+            "cost": 107910,
+            "description": "دیتا - ماهه - 30روزه (1 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05272",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "400132000",
+            "cost": 147150,
+            "description": "دیتا - ماهه - 30روزه (2 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05274",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "400132012",
+            "cost": 315010,
+            "description": "دیتا - ماهه - 30روزه ( 10 گیگابایت + 2 گیگابایت هدیه ساعات 2 تا 7 صبح)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527c",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 10
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "400132013",
+            "cost": 543910,
+            "description": "دیتا - ماهه - 30روزه (20 گیگابایت+ 5 گیگابایت هدیه ساعات 3 تا 9 صبح)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05299",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 20
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "400122016",
+            "cost": 315010,
+            "description": "دایمی - ماهانه -   30روزه (10 گیگابایت +2گیگابایت هدیه ساعات 2 تا 7 صبح)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527c",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 10
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "400122017",
+            "cost": 543910,
+            "description": "دایمی - ماهانه -    30روزه( 20 گیگابایت+ 5گیگابایت هدیه ساعات 3 تا 9 صبح)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05299",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 20
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "400122001",
+            "cost": 107910,
+            "description": "دایمی - ماهانه - 30روزه (1 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05272",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "400122000",
+            "cost": 147150,
+            "description": "دایمی - ماهانه - 30روزه (2 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05274",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "400122008",
+            "cost": 216910,
+            "description": "دایمی - ماهانه - 30 روزه (2.5 گیگابایت+ 5 گیگابایت اینترنت ملی)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529e",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2.5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "400122007",
+            "cost": 184210,
+            "description": "دایمی - ماهانه - 30 روزه (1.5 گیگابایت+ 3 گیگابایت اینترنت ملی)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05276",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1.5
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "400122005",
+            "cost": 103550,
+            "description": "دایمی - هفتگی -    7روزه (1 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05272",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "400111024",
+            "cost": 1907500,
+            "description": "اعتباری - 6 ماهه -    180روزه ( 75گیگابایت به همراه 25 گیگابایت هدیه ساعات 2 تا 7 صبح)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05293",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 6
+                }
+            },
+            "traffic": {
+                "_id": "5e7320b3cbbb7d4dfdcc1071",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 75
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-19T07:35:15.215Z",
+                "updated_at": "2020-03-19T07:35:15.215Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "400111025",
+            "cost": 2398000,
+            "description": "اعتباری - 1 ساله -    365روزه (100 گیگابایت به همراه 25 گیگابایت هدیه ساعات 2 تا 7 صبح) ",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05295",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "YEAR",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5e63891486ada014ec504caf",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 100
+                },
+                "status": "ACTIVE",
+                "created_at": "2020-03-07T11:44:20.078Z",
+                "updated_at": "2020-03-07T11:44:20.078Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "400111023",
+            "cost": 543910,
+            "description": "اعتباری - ماهانه - 30روزه (20 گیگابایت+ 5 گیگابایت هدیه ساعات 3 تا 9 صبح)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05299",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 20
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "400112001",
+            "cost": 107910,
+            "description": "اعتباری - ماهانه - 30روزه (1 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05272",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "400112000",
+            "cost": 147150,
+            "description": "اعتباری - ماهانه - 30روزه (2 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05274",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "400111022",
+            "cost": 315010,
+            "description": "اعتباری - ماهانه -  30روزه( 10 گیگابایت +2 گیگابایت هدیه ساعات 2 تا 7 صبح)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0527c",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 10
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "400132005",
+            "cost": 103550,
+            "description": "دیتا - هفتگی - 7روزه ( 1 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05272",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "400112005",
+            "cost": 103550,
+            "description": "اعتباری - هفتگی -    7روزه (1 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05271",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "WEEK",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05272",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "400132007",
+            "cost": 184210,
+            "description": "دیتا - ماهه - 30 روزه (1.5 گیگابایت+ 3 گیگابایت اینترنت ملی)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05276",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1.5
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "400132008",
+            "cost": 216910,
+            "description": "دیتا - ماهه - 30 روزه (2.5 گیگابایت+ 5 گیگابایت اینترنت ملی)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529e",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2.5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "400112007",
+            "cost": 184210,
+            "description": "اعتباری - ماهانه - 30 روزه (1.5 گیگابایت+ 3 گیگابایت اینترنت ملی)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05276",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 1.5
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "400112008",
+            "cost": 216910,
+            "description": "اعتباری - ماهانه - 30 روزه (2.5 گیگابایت+ 5 گیگابایت اینترنت ملی)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b0529e",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 2.5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "400132018",
+            "cost": 238710,
+            "description": "دیتا - ماهه - 30روزه (5گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "400132016",
+            "cost": 195110,
+            "description": "دیتا - ماهه - 30روزه (3 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "400132019",
+            "cost": 271410,
+            "description": "دیتا - ماهه - 30روزه (7 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05287",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 7
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "400132017",
+            "cost": 216910,
+            "description": "دیتا - ماهه - 30روزه (4 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d99a9d0a9b9f3235e38cac7",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 4
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:46:08.295Z",
+                "updated_at": "2019-10-06T08:46:08.295Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 2
+        },
+        {
+            "type": "400122056",
+            "cost": 195110,
+            "description": "دایمی - ماهانه - 30روزه (3 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "400122059",
+            "cost": 271410,
+            "description": "دایمی - ماهانه - 30روزه (7گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05287",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 7
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "400122057",
+            "cost": 216910,
+            "description": "دایمی - ماهانه - 30روزه (4 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d99a9d0a9b9f3235e38cac7",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 4
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:46:08.295Z",
+                "updated_at": "2019-10-06T08:46:08.295Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "400122058",
+            "cost": 238710,
+            "description": "دایمی - ماهانه - 30روزه( 5گیگابایت )",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 1
+        },
+        {
+            "type": "400112063",
+            "cost": 195110,
+            "description": "اعتباری - ماهانه - 30روزه (3 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05275",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 3
+                },
+                "status": "ACTIVE"
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "400112066",
+            "cost": 271410,
+            "description": "اعتباری - ماهانه - 30روزه (7 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05287",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 7
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "400112065",
+            "cost": 238710,
+            "description": "اعتباری - ماهانه - 30روزه (5 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d0792d8955a7b29f0b05283",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 5
+                }
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        },
+        {
+            "type": "400112064",
+            "cost": 216910,
+            "description": "اعتباری - ماهانه - 30روزه (4 گیگابایت)",
+            "duration": {
+                "_id": "5d0792d8955a7b29f0b05285",
+                "status": "ACTIVE",
+                "category": {
+                    "type": "DURATION",
+                    "sub_type": "MONTH",
+                    "value": 1
+                }
+            },
+            "traffic": {
+                "_id": "5d99a9d0a9b9f3235e38cac7",
+                "category": {
+                    "type": "TRAFFIC",
+                    "sub_type": "GB",
+                    "value": 4
+                },
+                "status": "ACTIVE",
+                "created_at": "2019-10-06T08:46:08.295Z",
+                "updated_at": "2019-10-06T08:46:08.295Z",
+                "v": 0
+            },
+            "isSpecial": false,
+            "chargeType": 0
+        }
+    ]
+}

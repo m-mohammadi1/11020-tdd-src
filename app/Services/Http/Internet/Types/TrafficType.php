@@ -1,19 +1,17 @@
 <?php
 
-namespace App\Services\Http\InternetPackage\Types;
+namespace App\Services\Http\Internet\Types;
 
-use \App\Enums\DurationType as DurationTypeEnum;
+use App\Enums\TrafficType as TrafficTypeEnum;
 
-class DurationType
+class TrafficType
 {
-    private string $type;
-
     public function __construct(
         string $type
     )
     {
         if (!in_array(strtolower($type), self::getAcceptedTypes())) {
-            throw new \Exception('Invalid duration type');
+            throw new \Exception('Invalid traffic type');
         }
 
         $this->type = strtolower($type);
@@ -26,7 +24,7 @@ class DurationType
 
     public static function getAcceptedTypes(): array
     {
-        return ['day', 'week', 'month', 'year'];
+        return ['gb', 'mb'];
     }
 
     public static function acceptsDurationType(string $type): bool
@@ -34,8 +32,8 @@ class DurationType
         return in_array(strtolower($type), self::getAcceptedTypes());
     }
 
-    public function getTypeEnum(): DurationTypeEnum
+    public function getTypeEnum(): TrafficTypeEnum
     {
-        return DurationTypeEnum::from($this->type);
+        return TrafficTypeEnum::from($this->type);
     }
 }

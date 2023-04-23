@@ -1,6 +1,8 @@
 <?php
 
-namespace App\Services\Http\InternetPackage\Types;
+namespace App\Services\Http\Internet\Types;
+
+use App\Enums\Operator;
 
 class InternetPackage
 {
@@ -12,6 +14,7 @@ class InternetPackage
         public readonly DurationType $durationType,
         public readonly int $traffic,
         public readonly TrafficType $trafficType,
+        public readonly Operator $operator,
     )
     {
 

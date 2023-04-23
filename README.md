@@ -13,6 +13,7 @@ add fixed units for traffic and duration of packages
 add operator's identifiers for each package
 <br />
 (mci, irancell, rightel)
++done
 
 #### step 3
 add discounts per each operator packages

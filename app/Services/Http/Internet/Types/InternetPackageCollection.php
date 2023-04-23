@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Services\Http\InternetPackage\Types;
+namespace App\Services\Http\Internet\Types;
 
-use App\Services\Http\InternetPackage\Exceptions\InvalidPackageTypeException;
+use App\Services\Http\Internet\Exceptions\InvalidPackageTypeException;
 use Illuminate\Support\Collection;
 
 class InternetPackageCollection extends Collection

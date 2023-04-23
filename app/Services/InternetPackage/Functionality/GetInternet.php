@@ -2,25 +2,29 @@
 
 namespace App\Services\InternetPackage\Functionality;
 
+use App\Enums\Operator;
 use App\Models\InternetPackage;
-use App\Models\User;
-use App\Services\Http\InternetPackage\Interfaces\KareneInternetPackageServiceInterface;
-use App\Services\InternetPackage\Interfaces\InternetPackageServiceInterface;
-use App\Services\InternetPackage\Types\InternetPackageBuyResponse;
+use App\Services\Http\Internet\Interfaces\KaraneBuyInternetInterface;
+use App\Services\InternetPackage\Interfaces\GetInternetInterface;
 
-class InternetPackageService implements InternetPackageServiceInterface
+
+class GetInternet implements GetInternetInterface
 {
     public function __construct(
-        private KareneInternetPackageServiceInterface $internetPackageService
+        private KaraneBuyInternetInterface $internetPackageService
     )
     {
     }
 
     public function syncInternetPackagesInSystem()
     {
-        $packages = $this->internetPackageService->getPackages();
+        $mciPackages = $this->internetPackageService->getPackages(Operator::MCI);
+        $mtnPackages = $this->internetPackageService->getPackages(Operator::MTN);
+        $rightelPackages = $this->internetPackageService->getPackages(Operator::RIGHTEL);
 
-        /** @var \App\Services\Http\InternetPackage\Types\InternetPackage $package */
+        $packages = $mciPackages->merge($mtnPackages)->merge($rightelPackages);
+
+        /** @var \App\Services\Http\Internet\Types\InternetPackage $package */
         foreach ($packages as $package) {
             InternetPackage::query()
                 ->create([
@@ -31,6 +35,7 @@ class InternetPackageService implements InternetPackageServiceInterface
                     'duration_type' => $package->durationType->getTypeEnum(),
                     'traffic' => $package->traffic,
                     'traffic_type' => $package->trafficType->getTypeEnum(),
+                    'operator' => $package->operator
                 ]);
         }
     }

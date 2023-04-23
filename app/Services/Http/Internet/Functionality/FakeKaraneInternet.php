@@ -1,28 +1,34 @@
 <?php
 
-namespace App\Services\Http\InternetPackage\Functionality;
+namespace App\Services\Http\Internet\Functionality;
 
 
-use App\Services\Http\InternetPackage\Exceptions\KaraneProviderFailedException;
-use App\Services\Http\InternetPackage\Interfaces\KareneInternetPackageServiceInterface;
-use App\Services\Http\InternetPackage\Types\DurationType;
-use App\Services\Http\InternetPackage\Types\InternetPackage;
-use App\Services\Http\InternetPackage\Types\InternetPackageCollection;
-use App\Services\Http\InternetPackage\Types\TrafficType;
+use App\Enums\Operator;
+use App\Services\Http\Internet\Exceptions\KaraneProviderFailedException;
+use App\Services\Http\Internet\Interfaces\KaraneBuyInternetInterface;
+use App\Services\Http\Internet\Types\DurationType;
+use App\Services\Http\Internet\Types\InternetPackage;
+use App\Services\Http\Internet\Types\InternetPackageCollection;
+use App\Services\Http\Internet\Types\TrafficType;
 
-class FakeKaraneInternetPackageService implements KareneInternetPackageServiceInterface
+class FakeKaraneInternet implements KaraneBuyInternetInterface
 {
 
-    public function getPackages(): InternetPackageCollection
+    public function getPackages(Operator $operator): InternetPackageCollection
     {
         try {
-            $jsonFromFile = file_get_contents(__DIR__.'/FakeResources/packages.json');
+            $jsonFromFile = file_get_contents(__DIR__."/FakeResources/{$operator->value}.json");
 
             $packages = json_decode($jsonFromFile, true)['data'];
 
             $items = [];
             foreach ($packages as $package) {
-                if (!isset($package['traffic'])) {
+                // filter anarestan packages
+                if ($package['type'] === "0") {
+                    continue;
+                }
+
+                if (!isset($package['traffic']) || !isset($package['duration'])) {
                     continue;
                 }
 
@@ -45,7 +51,8 @@ class FakeKaraneInternetPackageService implements KareneInternetPackageServiceIn
                     $package['duration']['category']['value'],
                     $durationType,
                     $package['traffic']['category']['value'],
-                    $trafficType
+                    $trafficType,
+                    $operator
                 );
 
                 $items[] = $item;

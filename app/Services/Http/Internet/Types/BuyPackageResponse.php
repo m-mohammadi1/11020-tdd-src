@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Http\InternetPackage\Types;
+namespace App\Services\Http\Internet\Types;
 
 class BuyPackageResponse
 {
